@@ -28,15 +28,15 @@
       </div>
       <aside>
         <nav>
-          <ul class="prev-next-post">
+          <ul class="prev-next-post space-x-4">
             {{ if .PrevInSection }}
-              <li class="text-left flex-grow mr-4">
-                <a class="border-b border-gray-800" rel="prev" href="{{.PrevInSection.Permalink}}">← {{.PrevInSection.Title}}</a>
+              <li class="text-left flex-grow mb-2">
+                <a rel="prev" href="{{.PrevInSection.Permalink}}">← {{.PrevInSection.Title}}</a>
               </li>
             {{ end }}
             {{ if .NextInSection }}
               <li class="text-right flex-grow">
-                <a class="border-b border-gray-800" rel="next" href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}} →</a>
+                <a rel="next" href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}} →</a>
               </li>
             {{ end }}
           </ul>
