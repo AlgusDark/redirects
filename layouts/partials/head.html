@@ -153,10 +153,10 @@
   <link rel="preload" as="font" type="font/woff2" href="/fonts/alegreya-v16-latin-800.woff2" crossorigin>
 
   {{ $styles := resources.Get "css/main.css" }}
-  {{ $styles = $styles | postCSS }}
+  {{ $styles = $styles | postCSS (dict "config" "./assets/postcss.config.js")  }}
 
   {{ if hugo.IsProduction }}
-    {{ $styles = $styles | postCSS | minify | fingerprint }}
+    {{ $styles = $styles | postCSS (dict "config" "./assets/postcss.config.js") | minify | fingerprint }}
   {{ end }}
 
   <link href="{{ $styles.Permalink }}" rel="stylesheet" />
