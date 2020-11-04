@@ -20,6 +20,7 @@
     "postcss-nested": "^5.0.1",
     "prettier": "^2.1.2",
     "prettier-plugin-go-template": "^0.0.10",
+    "stylelint": "^13.7.2",
     "stylelint-config-recommended": "^3.0.0",
     "tailwindcss": "^1.9.6",
     "tailwindcss-dark-mode": "^1.1.7"
