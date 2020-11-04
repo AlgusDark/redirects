@@ -1,5 +1,7 @@
 .highlight > .chroma {
   @apply rounded p-4;
+  font-size: 80%;
+  border: 1px solid rgb(47, 61, 86);
 }
 
 .highlight {
@@ -16,10 +18,10 @@
 .chroma .x {
 }
 /* Error */
-.chroma .err {
+/* .chroma .err {
   color: #960050;
   background-color: #1e0010;
-}
+} */
 /* LineTableTD */
 .chroma .lntd {
   vertical-align: top;
@@ -36,6 +38,8 @@
   width: auto;
   overflow: auto;
   display: block;
+  padding: 1rem 0;
+  margin: -1rem;
 }
 /* LineHighlight */
 .chroma .hl {

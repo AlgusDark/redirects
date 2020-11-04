@@ -1,9 +1,11 @@
 :root {
   --color-bg: #fff;
   --color-body: #212732;
+  --color-gray: #e2e8f0;
 }
 
 .dark {
   --color-bg: #0e182a;
   --color-body: #fff;
+  --color-gray: #222f44;
 }
