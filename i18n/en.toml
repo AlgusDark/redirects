@@ -1,0 +1,20 @@
+[recent_posts]
+other = "Recent Posts"
+
+[greetings]
+other = "Hi there!"
+
+[read]
+other = "Leer en {{.Language.LanguageName}}"
+
+[keep_reading]
+other = "Keep reading"
+
+[not_found]
+other = "Page Not Found"
+
+[introduction]
+other = '''
+<p>I'm Carlos, a.k.a. Algus Dark. You just stumbled to my personal website where I write about Computer Science and general (weird) stuff.</p>
+<p>You can find me on <a href="https://twitter.com/{{.author.twitter}}">Twitter</a>, <a href="https://github.com/{{.author.github}}">GitHub</a>, <a href="https://instagram.com/{{.author.instagram}}">Instagram</a> or <a href="https://www.youtube.com/channel/UCaRp1KzFEEpBbBpr8mMm0jg">Youtube</a>.</p>
+'''

@@ -1,0 +1,21 @@
+#theme-toggle {
+  outline: none;
+}
+
+.dark #theme-toggle {
+  .sun {
+    display: block;
+  }
+  .moon {
+    display: none;
+  }
+}
+
+html:not(.dark) #theme-toggle {
+  .sun {
+    display: none;
+  }
+  .moon {
+    display: block;
+  }
+}

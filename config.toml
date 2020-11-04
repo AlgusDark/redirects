@@ -1,0 +1,77 @@
+DefaultContentLanguage = "en"
+baseURL = "https://algus.ninja"
+canonifyURLs = true
+enableRobotsTXT = true
+pygmentsUseClasses = true
+
+[params]
+[params.author]
+github = "algusdark"
+instagram = "algusdark"
+name = "Algus Dark"
+twitter = "algusdark"
+[params.time]
+RFC3339 = "2006-01-02T15:04:05Z07:00"
+default = "January 2, 2006"
+short = "Jan 02, 2006"
+
+[taxonomies]
+tag = "tags"
+
+[permalinks]
+posts = ":title"
+
+[markup]
+[markup.highlight]
+tabWidth = 2
+
+[languages]
+[languages.en]
+description = "The space for all my thoughts"
+languageCode = "en-us"
+languageName = "English"
+title = "Feline Cosmonaut"
+weight = 1
+[languages.es]
+description = "El espacio para todos mis pensamientos"
+languageCode = "es-mx"
+languageName = "Español"
+title = "Cosmonauta Felino"
+weight = 2
+
+[menu]
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 1
+
+[[menu.main]]
+name = "Uses"
+url = "/uses"
+weight = 2
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 3
+
+[[menu.footer]]
+name = "RSS"
+url = "/posts/index.xml"
+weight = 1
+
+[[menu.footer]]
+name = "GitHub"
+url = "https://github.com/algusdark"
+weight = 2
+
+[[menu.footer]]
+name = "Twitter"
+url = "https://twitter.com/algusdark"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4

@@ -1,0 +1,80 @@
+@import "tailwind.css";
+@import "vars.css";
+@import "syntax.css";
+@import "typography.css";
+@import "theme.css";
+
+body {
+  color: #443b4e;
+  font-family: "system";
+}
+
+#content {
+  ul {
+    @apply ml-6 list-disc list-outside;
+    li {
+      @apply mb-2;
+    }
+  }
+
+  a {
+    @apply border-b;
+    border-color: var(--color-body);
+    &:hover {
+      color: var(--color-bg);
+      background-color: var(--color-body);
+    }
+  }
+}
+
+.posts-list {
+  a span {
+    @apply border-b;
+    border-color: var(--color-body);
+    &:hover {
+      color: var(--color-bg);
+      background-color: var(--color-body);
+    }
+  }
+}
+
+.tags {
+  @apply inline text-sm tracking-wide;
+  a {
+    @apply border-b;
+    border-color: var(--color-body);
+    &:hover {
+      color: var(--color-bg);
+      background-color: var(--color-body);
+    }
+  }
+}
+
+.tags-list {
+  @apply flex tracking-wide mb-2;
+
+  li {
+    a {
+      @apply border-b;
+      border-color: var(--color-body);
+      &:hover {
+        color: var(--color-bg);
+        background-color: var(--color-body);
+      }
+    }
+  }
+}
+
+.prev-next-post {
+  @apply flex flex-wrap justify-between list-none p-0 m-0;
+  li {
+    a {
+      @apply border-b;
+      border-color: var(--color-body);
+      &:hover {
+        color: var(--color-bg);
+        background-color: var(--color-body);
+      }
+    }
+  }
+}

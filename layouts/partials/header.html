@@ -1,0 +1,20 @@
+<header class="text-center mx-auto mt-4 mb-12 px-5 lg:px-32 container">
+  <a href="/{{cond (eq .Site.Language.Lang "en") "" .Site.Language.Lang }}">
+    <h1 class="tracking-tight uppercase leading-none mb-1 inline-block">{{ .Site.Title }}</h1>
+  </a>
+  <div class="flex flex-row">
+    {{ if .IsTranslated }}
+      {{ range .Translations }}
+        <a href="{{ .Permalink }}" data-lang="{{ .Lang }}" title="{{.Title}}">{{i18n "read" . }}</a>
+      {{ end }}
+    {{ end }}
+    <button id="theme-toggle" class="p-2 opacity-75 hover:opacity-100 transition-opacity ease-in-out duration-150 ml-auto">
+      <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+        <path d="M8,2 C4.5,2.9 2,6.1 2,9.9 C2,14.4 5.6,18 10.1,18 C13.9,18 17,15.5 18,12 C11.9,13.7 6.3,8.1 8,2 Z"></path>
+      </svg>
+      <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+        <rect width="2" height="2" x="9" y="2"></rect><rect width="2" height="2" x="13.88" y="4.051" transform="rotate(45.02 14.88 5.051)"></rect><rect width="2" height="2" x="16" y="9"></rect><rect width="2" height="2" x="13.949" y="14.019" transform="rotate(-135.02 14.95 15.019)"></rect><rect width="2" height="2" x="9" y="16"></rect><rect width="2" height="2" x="3.98" y="13.949" transform="rotate(-134.98 4.98 14.95)"></rect><rect width="2" height="2" x="2" y="9"></rect><rect width="2" height="2" x="4.05" y="4.121" transform="rotate(44.98 5.05 5.12)"></rect><path d="M10,6 C7.8,6 6,7.8 6,10 C6,12.2 7.8,14 10,14 C12.2,14 14,12.2 14,10 C14,7.8 12.2,6 10,6 Z"></path>
+      </svg>
+    </button>
+  </div>  
+</header>

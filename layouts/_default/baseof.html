@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  {{ partial "head" . }}
+  <body class="antialiased leading-normal bg-bg text-body overflow-x-hidden">
+    {{ $defines := dict "process.env.NODE_ENV" `"production"` }}
+    {{ $opts := dict "defines" $defines }}
+    {{ $js := resources.Get "js/main.ts" | js.Build $opts | minify | fingerprint }}
+
+    {{ if .Site.IsServer }}
+      {{ $defines := dict "process.env.NODE_ENV" `"development"` }}
+      {{ $opts := dict "defines" $defines }}
+      {{ $js := resources.Get "js/main.ts" | js.Build $opts }}
+    {{ end }}
+
+    <script src="{{ $js.Permalink | relURL }}"></script>
+
+    {{ partial "header" . }}
+    <main>
+      {{ block "main" . }} {{ end }}
+    </main>
+    {{ partial "footer" . }}
+  </body>
+</html>

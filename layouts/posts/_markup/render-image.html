@@ -1,0 +1,4 @@
+<figure class="flex flex-col items-center mb-8">
+  <img class="rounded-md shadow-lg" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+</figure>
+

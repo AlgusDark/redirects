@@ -1,0 +1,24 @@
+{{ $current := . }}
+<footer
+  class="container mx-auto text-sm mt-24 mb-12 tracking-wide text-center"
+>
+  <nav class="w-full mb-4">
+    <ul class="flex justify-center tracking-wide space-x-4 mb-2">
+      {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+    <ul class="flex justify-center tracking-wide space-x-4">
+      {{ range .Site.Menus.footer }}
+      <li>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+  <p>
+    &copy;{{ now.Format "2006" }} {{ .Site.Title }}
+  </p>
+</footer>

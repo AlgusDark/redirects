@@ -1,0 +1,25 @@
+{
+  "name": "quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development hugo server --buildFuture"
+  },
+  "author": "Algus Dark",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "hugo-bin": "^0.65.0",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.2.0",
+    "postcss-import": "^13.0.0",
+    "postcss-nested": "^5.0.1",
+    "prettier": "^2.1.2",
+    "prettier-plugin-go-template": "^0.0.10",
+    "stylelint-config-recommended": "^3.0.0",
+    "tailwindcss": "^1.9.6",
+    "tailwindcss-dark-mode": "^1.1.7"
+  },
+  "dependencies": {}
+}
