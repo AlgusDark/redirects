@@ -2,18 +2,23 @@
 <html lang="{{ .Site.Language.Lang }}">
   {{ partial "head" . }}
   <body class="antialiased leading-normal bg-bg text-body overflow-x-hidden">
-    {{ $defines := dict "process.env.NODE_ENV" `"production"` }}
-    {{ $opts := dict "defines" $defines }}
-    {{ $js := resources.Get "js/main.ts" | js.Build $opts | minify | fingerprint }}
+    <script>
+      (function () {
+        try {
+          let mode = localStorage.getItem("cosmonauta-felino");
+          if (!mode) {
+            let matches = window.matchMedia("(prefers-color-scheme: dark)")
+              .matches;
+            if (!matches) {
+              return;
+            }
+            mode = "dark";
+          }
 
-    {{ if .Site.IsServer }}
-      {{ $defines := dict "process.env.NODE_ENV" `"development"` }}
-      {{ $opts := dict "defines" $defines }}
-      {{ $js := resources.Get "js/main.ts" | js.Build $opts }}
-    {{ end }}
-
-    <script src="{{ $js.Permalink | relURL }}"></script>
-
+          document.documentElement.classList.add(mode);
+        } catch (e) {}
+      })();
+    </script>
     {{ partial "header" . }}
     <main>
       {{ block "main" . }} {{ end }}

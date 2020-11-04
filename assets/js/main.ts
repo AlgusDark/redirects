@@ -2,11 +2,24 @@ type Mode = "dark" | "light";
 
 let key = "cosmonauta-felino";
 
+let $toggle = document.querySelector("#theme-toggle");
+
 document.addEventListener("DOMContentLoaded", ready);
 
 function ready() {
-  let toggle = document.querySelector("#theme-toggle");
-  if (toggle) toggle.addEventListener("click", toggleMode, false);
+  changeAriaLabel();
+
+  if ($toggle) $toggle.addEventListener("click", toggleMode, false);
+}
+
+function changeAriaLabel() {
+  let mode = getMode();
+
+  if (mode === "dark") {
+    $toggle.setAttribute("aria-label", `Activate light mode`);
+  } else {
+    $toggle.setAttribute("aria-label", `Activate dark mode`);
+  }
 }
 
 function getMode() {
@@ -23,6 +36,8 @@ function setMode(mode: Mode) {
       document.documentElement.classList.add("dark");
       document.documentElement.classList.remove("light");
     }
+
+    changeAriaLabel();
   } catch (err) {
     console.error(err);
   }
@@ -36,21 +51,3 @@ function toggleMode() {
     setMode("dark");
   }
 }
-
-(function () {
-  try {
-    let mode = getMode();
-    if (!mode) {
-      let matches = window.matchMedia("(prefers-color-scheme: dark)").matches;
-      if (!matches) {
-        return;
-      }
-      mode = "dark";
-    }
-    if (mode === "light") {
-      document.documentElement.classList.remove("dark");
-    }
-
-    document.documentElement.classList.add(mode);
-  } catch (e) {}
-})();

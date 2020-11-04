@@ -160,4 +160,16 @@
   {{ end }}
 
   <link href="{{ $styles.Permalink }}" rel="stylesheet" />
+
+  {{ $defines := dict "process.env.NODE_ENV" `"development"` }}
+  {{ $opts := dict "defines" $defines }}
+  {{ $js := resources.Get "js/main.ts" | js.Build $opts }}
+
+  {{ if hugo.IsProduction }}
+    {{ $defines := dict "process.env.NODE_ENV" `"production"` }}
+    {{ $opts := dict "defines" $defines }}
+    {{ $js := resources.Get "js/main.ts" | js.Build $opts | minify | fingerprint }}
+  {{end}}
+
+  <script defer src="{{ $js.Permalink | relURL }}"></script>
 </head>
