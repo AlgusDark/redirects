@@ -4,6 +4,7 @@ bgImage: "./rainy.gif"
 description: Writing maintainable tests for the Web.
 tags: [JavaScript, Programming]
 date: 2019-10-26
+draft: false
 ---
 
 As I `mentioned` in [my previous post about testing](/testing-with-javascript), there are many
@@ -18,8 +19,9 @@ In a few words, **implementation details** are the code of your business logic a
 lead to changes in our test that doesn't affect the interaction of our UI. This is something that happens
 too often and is the mere essence of developers to mention that testing is boring because it brakes.
 Something interesting about this testing library is that **it gives you the necessary utilities so
-you don't have easy paths to use bad practices** for the mere testing purpose. What we want
-to test is what the user will use since they don't care about what libraries or algorithms
+you don't have easy paths to use bad practices** for the mere testing purpose.
+
+What we want to test is what the user will use since they don't care about what libraries or algorithms
 we're using to make our product, they only care about usability and that's what our tests
 should test. Of course, there are places where testing the implementation is a good fit,
 but most of the time that code will be used trough our application driven by the user actions.

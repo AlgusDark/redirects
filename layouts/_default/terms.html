@@ -1,25 +1,24 @@
 {{ define "main" }}
-<section class="container mx-auto">
-  <div class="px-5 lg:px-32">
-    <header class="mb-12">
-      <h1>Tags</h1>
-    </header>
-    <div>
-      <ul class="tags-list space-x-4">
-        {{ range .Pages }}
-        <li class="inline-block">
-          <a
-            href="{{ .Permalink }}"
-            class="border-b border-grey-darker hover:border-none hover:bg-black hover:text-white"
-          >
-            <span class="no-sr-only text-grey-darkest">#</span>
-            {{- .Title | lower | urlize -}}
-          </a>
-        </li>
-        {{end}}
-      </ul>
+  <section class="container mx-auto">
+    <div class="px-5 lg:px-56">
+      <header class="mb-12">
+        <h1>Tags</h1>
+      </header>
+      <div>
+        <ul class="tags-list space-x-4">
+          {{ range .Pages }}
+            <li class="inline-block">
+              <a
+                href="{{ .Permalink }}"
+                class="border-b border-grey-darker hover:border-none hover:bg-black hover:text-white"
+              >
+                <span class="no-sr-only text-grey-darkest">#</span>
+                {{- .Title | lower | urlize -}}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 {{ end }}
-

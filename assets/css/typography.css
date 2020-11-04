@@ -52,5 +52,6 @@ h6 {
 }
 
 p {
-  @apply leading-relaxed mb-4;
+  @apply mb-4;
+  line-height: 1.75;
 }
