@@ -3,6 +3,7 @@ title: Dreyfus Model of skill acquisition
 description: You Know Nothing, Jon Snow.
 date: 2019-10-21
 tags: [Mind, TIL]
+draft: false
 ---
 
 People ask me how to learn stuff and is an interesting topic as the human mind is different and there

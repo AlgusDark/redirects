@@ -3,6 +3,7 @@ title: Hola Mundo!
 description: Declaro inaugurados los debrayes del Algus
 date: 2019-10-01
 tags: [JavaScript, Gatsby]
+draft: false
 ---
 ## Nuevamente a escribir
 

@@ -3,6 +3,7 @@ title: How I setup a new development environment
 description: It takes time to setup a new development environment. Thank God developers are so lazy.
 date: 2020-05-19
 tags: [Development]
+draft: false
 ---
 
 One of the things that happen when you join a new company or you get a new computer, is that you need to start fresh and start installing all the necessary applications in your brand new work station.

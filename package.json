@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development hugo server --buildFuture"
+    "dev": "NODE_ENV=development hugo server --buildFuture",
+    "build": "NODE_ENV=production hugo --gc --minify",
+    "build:preview": "NODE_ENV=production hugo --gc --minify --buildFuture"
   },
   "author": "Algus Dark",
   "license": "ISC",
