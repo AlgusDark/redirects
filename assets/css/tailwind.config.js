@@ -1,12 +1,11 @@
 const path = require("path");
 
 module.exports = {
+  future: {
+    purgeLayersByDefault: true,
+  },
   purge: {
-    content: [
-      "./layouts/**/*.html",
-      "./content/**/*.md",
-      "./content/**/*.html",
-    ],
+    content: ["./layouts/**/*.html", "./content/**/*.html"],
     options: {
       whitelist: ["dark"],
     },

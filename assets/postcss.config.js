@@ -1,7 +1,9 @@
 module.exports = {
   plugins: [
-    require("tailwindcss"),
-    require("postcss-import"),
+    require("postcss-import")({
+      path: ["assets/css"],
+    }),
+    require("tailwindcss")("./assets/css/tailwind.config.js"),
     require("postcss-nested"),
     require("autoprefixer"),
     ...(process.env.NODE_ENV === "production"
