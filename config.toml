@@ -1,5 +1,5 @@
 DefaultContentLanguage = "en"
-baseURL = "https://algus.ninja"
+baseURL = "https://algus.vercel.app"
 canonifyURLs = true
 enableRobotsTXT = true
 pygmentsUseClasses = true
