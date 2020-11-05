@@ -1,18 +1,15 @@
 {{ define "main" }}
   <section class="container mx-auto">
-    <div class="px-5 lg:px-56">
-      <header class="mb-12">
+    <div class="px-4 lg:px-56">
+      <header class="mb-6">
         <h1>Tags</h1>
       </header>
       <div>
-        <ul class="tags-list space-x-4">
+        <ul class="tags-list">
           {{ range .Pages }}
-            <li class="inline-block">
-              <a
-                href="{{ .Permalink }}"
-                class="border-b border-grey-darker hover:border-none hover:bg-black hover:text-white"
-              >
-                <span class="no-sr-only text-grey-darkest">#</span>
+            <li>
+              <a href="{{ .Permalink }}">
+                <span>#</span>
                 {{- .Title | lower | urlize -}}
               </a>
             </li>

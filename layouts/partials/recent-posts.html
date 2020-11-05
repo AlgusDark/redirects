@@ -7,11 +7,11 @@
         </span>
         <time
           datetime="{{ .Date.Format .Site.Params.time.RFC3339 }}"
-          class="text-grey-darkest text-sm sm:ml-2 w-full sm:w-24 inline-block"
+          class="text-sm sm:ml-2 w-full sm:w-24 inline-block"
         >
           {{- .Date.Format .Site.Params.time.Short -}}
         </time>
       </a>
-    </li>  
+    </li>
   {{ end }}
 </ul>

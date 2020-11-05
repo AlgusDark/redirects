@@ -3,7 +3,7 @@
 {{ if $posts }}
   <aside class="mt-8">
     <header class="mb-8">
-      <h2>{{i18n "keep_reading" .}}</h2>
+      <h2>{{ i18n "keep_reading" . }}</h2>
     </header>
     <ul class="posts-list space-y-4 sm:space-y-0">
       {{ range $posts }}
@@ -11,11 +11,10 @@
           <a href="{{ .RelPermalink }}">
             <span>
               {{ .Title }}
-            </span
-            >
+            </span>
             <time
               datetime="{{ .Date.Format .Site.Params.time.RFC3339 }}"
-              class="text-grey-darkest text-sm sm:ml-2 w-full sm:w-24 inline-block"
+              class="text-sm sm:ml-2 w-full sm:w-24 inline-block"
             >
               {{- .Date.Format .Site.Params.time.Short -}}
             </time>
