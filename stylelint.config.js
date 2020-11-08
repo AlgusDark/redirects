@@ -17,7 +17,7 @@ module.exports = {
     "font-family-no-missing-generic-family-keyword": [
       true,
       {
-        ignoreFontFamilies: ["Alegreya", "Inter"],
+        ignoreFontFamilies: ["Alegreya", "Merriweather"],
       },
     ],
     "declaration-block-trailing-semicolon": null,
