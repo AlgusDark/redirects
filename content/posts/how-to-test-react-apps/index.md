@@ -7,7 +7,7 @@ date: 2019-10-26
 draft: false
 ---
 
-As I `mentioned` in [my previous post about testing](/testing-with-javascript), there are many
+As I `mentioned` in [my previous post about testing](/what-is-and-how-can-we-test-something), there are many
 libraries out there that can help us to create our tests that are maintainable and resilient.
 Recently I've discovered [Testing Library](https://testing-library.com/), a set of testing utilities
 that will encourage us to use good testing practices.  The library is mainly maintained by

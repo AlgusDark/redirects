@@ -55,7 +55,7 @@ h4,
 h5,
 h6 {
   font-family: "Alegreya";
-  @apply leading-tight font-extrabold;
+  @apply leading-tight font-extrabold mb-4;
 }
 
 h1 {

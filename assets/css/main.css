@@ -110,3 +110,8 @@ footer nav {
     }
   }
 }
+
+ol,
+ul {
+  @apply mb-4;
+}
