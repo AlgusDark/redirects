@@ -32,6 +32,42 @@ languageCode = "en-us"
 languageName = "English"
 title = "Feline Cosmonaut"
 weight = 1
+
+[[languages.en.menu.main]]
+name = "About"
+url = "/about"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Uses"
+url = "/uses"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 3
+
+[[languages.en.menu.footer]]
+name = "RSS"
+url = "/posts/index.xml"
+weight = 1
+
+[[languages.en.menu.footer]]
+name = "GitHub"
+url = "https://github.com/algusdark"
+weight = 2
+
+[[languages.en.menu.footer]]
+name = "Twitter"
+url = "https://twitter.com/algusdark"
+weight = 3
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
 [languages.es]
 description = "El espacio para todos mis pensamientos"
 languageCode = "es-mx"
@@ -39,39 +75,37 @@ languageName = "Español"
 title = "Cosmonauta Felino"
 weight = 2
 
-[menu]
-
-[[menu.main]]
+[[languages.es.menu.main]]
 name = "About"
-url = "/about"
+url = "/es/about"
 weight = 1
 
-[[menu.main]]
+[[languages.es.menu.main]]
 name = "Uses"
-url = "/uses"
+url = "/es/uses"
 weight = 2
 
-[[menu.main]]
+[[languages.es.menu.main]]
 name = "Posts"
-url = "/posts"
+url = "/es/posts"
 weight = 3
 
-[[menu.footer]]
+[[languages.es.menu.footer]]
 name = "RSS"
-url = "/posts/index.xml"
+url = "/es/posts/index.xml"
 weight = 1
 
-[[menu.footer]]
+[[languages.es.menu.main]]
+name = "Tags"
+url = "/es/tags"
+weight = 4
+
+[[languages.es.menu.footer]]
 name = "GitHub"
 url = "https://github.com/algusdark"
 weight = 2
 
-[[menu.footer]]
+[[languages.es.menu.footer]]
 name = "Twitter"
 url = "https://twitter.com/algusdark"
 weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
