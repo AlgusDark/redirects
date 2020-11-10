@@ -12,6 +12,17 @@ body {
   font-weight: 300;
 }
 
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0px;
+  border: 0px;
+}
+
 #content {
   ul {
     @apply ml-6 list-disc list-outside;
@@ -36,6 +47,21 @@ body {
     padding: 0.25em;
     background: var(--color-gray);
     border-radius: 0.25em;
+  }
+
+  .heading {
+    display: inline-flex;
+    align-items: baseline;
+
+    & .permalink {
+      border: 0;
+      margin-left: 0.5em;
+
+      &:hover {
+        color: inherit;
+        background: inherit;
+      }
+    }
   }
 }
 
