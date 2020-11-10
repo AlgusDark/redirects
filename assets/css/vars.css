@@ -1,11 +1,11 @@
 :root {
   --color-bg: #ebebeb;
-  --color-body: #191a1d;
+  --color-body: #10141a;
   --color-gray: #c3ced8;
 }
 
 .dark {
-  --color-bg: #191a1d;
+  --color-bg: #10141a;
   --color-body: #ebebeb;
   --color-gray: #222f44;
 }
