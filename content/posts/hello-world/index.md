@@ -1,58 +1,26 @@
 ---
-title: Hello World!
+title: Hello world!
 description: I declare the nonsense of Algus inaugurated
-date: 2019-10-01
-tags: [JavaScript, Gatsby]
+date: 2020-11-16
+tags: [life]
 draft: false
 ---
-## Once again, to write
 
-I love writing and reading, but I don't have the time to do both. I have postponed too
-much time to write again, and I think that has done me a little damage since I have
-lost the practice.
+## The beginning of a digital life.
+I love to read and write but I haven't accomplished maintaining the same rhythm with both activities. Opening this personal blog is an advance to be able to start so that my ideas do not stay in my head and are digitized for better access.
 
-I've decided that it's a good time to learn new things and keep a blog about it. Maybe
-the mistake that I had before was that I was first doing this for an audience and it did
-not include me in it, so this time I intend to write mainly for myself and in response
-to some questions that I frequently answer to other people.
+This blog is a clear example of what happens in my mind around the things I experience. This doesn't mean that I'll be talking specifically about my life, but that whenever I find something that should remain digitized I will be sharing it in this space. Accessing this information is beneficial for me, it could be for you and/or someone you may know.
 
-So, dear reader, if you know me you will know about the things that are of my interest
-and maybe not all of this is of your interest, but I hope that some of this is
-interesting to you as it is for me.
+## JAMstack for the win!
 
-## Made with Gatsby
 
-I've made the blog with [Gatsby](https://gatsbyjs.org), a framework written in
-**React** to create static sites. Previously I used [Jekyll](https://jekyllrb.com/),
-written in **ruby**, with which I felt quite comfortable working but it was difficult
-to customize since my specialty is with  **JavaScript**  so I did not venture to make
-such drastic changes in the engine, which I will change with _Gatsby_ and which I've'
-already started doing now.
 
-Their documentation is amazing but I ventured without reading it because I wanted to
-experience first hand if it was complicated to understand their tools. It was a pleasant
-surprise that in version 2 
-(_before I had tried with v1 and it was not a pleasant experience_)
-everything was so simple or at least it was easy to debug and find the problems.
+My first blog was made with [jekyll](https://jekyllrb.com/), after I did some experiments with [Gatsby](https://gatsbyjs.org) and this time I decided to go with [Hugo](https://gohugo.io/) as the new tool for creating this new blog iteration.
 
-Another reason for why I did wanted to play with _Gatsby_ was that it uses
-[GraphQL](https://graphql.org/), another technology that is pretty popular nowadays and
-wich I had only read about it. I just can say... **WOW**. Maybe isn't the definitive
-solution to all of our problems, but it's a good answer to the Front End's world.
+The documentation of Hugo has a lot to be desired from other frameworks, however it has videos that helps you to start from scratch in a short time. The localization is implemented in Hugo and is very easy to do and I love it. Working with Hugo reminds me of using **Angular** or **Laravel** since you can create html templates and shortcodes that facilitate code sharing.
 
-## Location
-Another reason of why I wanted to write again was the fact that I want to improve my
-english, so I wrote a little script to have
-[localization](https://en.wikipedia.org/wiki/Internationalization_and_localization).
-_Gatsby_ already has some [i18n packages](https://www.gatsbyjs.org/docs/localization-i18n/)
-to make this, but I had some troubles when I wanted to implement it because I changed
-from **markdown** to [MDX](https://mdxjs.com/) for my posts. So I can tell you that
-if you know _JavaScript_, customizing it will be a piece of cake.
+## What is next?
 
-## What's this all about?
-As I mentioned before, I'll try to write from diverse of topics, so I'll not only talk
-about technology because it's not the only topic I usually talk about. Another thing I
-decided was not to add a comment section in each post and pass all those conversations
-to social networks like _Facebook_ or [Twitter](https://tw.algus.ninja).
+I have a lot of plans for 2021 and I'm very excited to be able to share them in this space. The design of the blog is minimalist, my idea was to create this as if it were an electronic book, it's for this reason that there is no comment section. If you want to contact me, you can do it through my social networks.
 
-So let's start with this story.
+Read you soon...

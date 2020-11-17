@@ -3,6 +3,7 @@
 @import "syntax.css";
 @import "typography.css";
 @import "theme.css";
+@import "newsletter.css";
 
 body {
   transition: color 0.2s ease-out, background 0.2s ease-out;
@@ -62,6 +63,12 @@ body {
         background: inherit;
       }
     }
+  }
+
+  blockquote {
+    padding-left: 1em;
+    border-left: 0.2em solid #4d91b3;
+    font-style: italic;
   }
 }
 

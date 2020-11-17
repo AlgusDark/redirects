@@ -1,0 +1,12 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  background-color: #5ed4c6;
+  @apply rounded-xl p-5 my-16 mx-auto;
+}
+
+.dark .newsletter {
+  background-color: #10413d;
+}

@@ -1,10 +1,27 @@
 ---
-title: Sobre mi
+title: About me
 draft: false
 ---
 
-Soy un Geek, amante de la tecnología y la literatura. Toqué una computadora a los 13 años y el calor de la pantalla me hipnotizó.
+{{< image width="280" height="280" src="/images/avatar.jpg" alt="Algus smiling" class="rounded-full shadow-2xl" figureclass="mb-8" >}}
 
-Me encanta el emprendimiento, mismo que me ha ayudado a impulsar cada una de mis ideas; algunas con éxito y otras en un fracaso, pero de todas ellas he aprendido mucho. Los video juegos han sido una parte importante en mi vida, gracias a *"The Legend of Zelda: A Link to the Past"* me nació el interés de aprender inglés por mi propia cuenta.
+## Algus Dark (A.K.A. Carlos Pérez Gutiérrez)
+Desarrollador de Software, escritor, amante de Doge y un soñador.
+## ¿Qué hace Algus?
+Hablar de cosas sin sentido que tienen sentido.
 
-Soy un entusiasta y soñador, mi pasatiempo favorito es aprender. En resumen, soy ése tipo que baila por la calle al caminar, escribe en el cielo y le compone música, con un game boy, a la luna.
+Jugar con palabras para hacerte aprender o reír, probablemente ambas.
+
+## ¿Qué hace Algus aquí?
+vaciar su mente en su segundo cerebro.
+
+Enseñar los que aprende o quiere aprender.
+## ¿Qué le gusta a Algus?
+Consumir Anime, Manga, Video Juegos, Novelas y libros no-ficticios.
+
+## ¿Qué está haciendo Algus en estos momentos?
+Leyendo, probablemente en su libreta electrónica. Aprendiendo un nuevo lenguaje de programación. Descubriendo Kyoto con su *waifu*. Buscando memes de Doge.
+
+## ¿Dónde se puede encontrar a Algus?
+
+Escribiendo Aquí. En Kyoto. En las maquinitas jugando juegos de peleas. [Frente a su computadora](https://git.algus.ninja). [En Twitter](https://tweet.algus.ninja). [Enseñando](https://pues.algus.ninja). [Tomando fotos](https://ig.algus.ninja). [Haciendo chistes](https://in.algus.ninja).

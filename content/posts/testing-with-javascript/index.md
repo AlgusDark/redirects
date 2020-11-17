@@ -3,7 +3,7 @@ title: What is and how can we Test something?
 description: Smashing keys until something works or stops working.
 tags: [JavaScript, Programming]
 date: 2019-10-12
-draft: false
+draft: true
 ---
 According to the oxford dictionary, testing is revealing a person's capabilities by putting
 them under strain, and some people can feel that about tests in programming.

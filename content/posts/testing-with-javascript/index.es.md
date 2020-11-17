@@ -3,7 +3,7 @@ title: ¿Qué es y como podemos probar ("testear") algo?
 description: Presionando teclas hasta que algo funcione o deje de funcionar.
 date: 2019-10-12
 tags: [JavaScript, Programming]
-draft: false
+draft: true
 ---
 Según el diccionario de oxford, _testing_ revela las capacidades de una persona al ponerla bajo
 presión, y algunas personas pueden sentir eso acerca de las pruebas en programación.
