@@ -5,7 +5,7 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: {
-    content: ["./layouts/**/*.html", "./content/**/*.html"],
+    content: ["./layouts/**/*.html", "./content/**/*.md"],
     options: {
       whitelist: ["dark"],
     },
