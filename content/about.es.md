@@ -1,5 +1,6 @@
 ---
 title: About me
+description: Desarrollador de Software, escritor, amante de Doge y un soñador.
 draft: false
 ---
 

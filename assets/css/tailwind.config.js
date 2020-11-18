@@ -14,8 +14,9 @@ module.exports = {
     darkSelector: ".dark",
     extend: {
       colors: {
-        bg: "var(--color-bg)",
-        body: "var(--color-body)",
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        tertiary: "var(--color-tertiary)",
       },
     },
   },

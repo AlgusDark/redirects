@@ -1,5 +1,5 @@
-@import "tailwind.css";
 @import "vars.css";
+@import "tailwind.css";
 @import "syntax.css";
 @import "typography.css";
 @import "theme.css";
@@ -34,10 +34,14 @@ body {
 
   a {
     @apply border-b;
-    border-color: var(--color-body);
+    border-color: var(--color-secondary);
+    padding: 0.1rem;
+    font-weight: 400;
+    transition-property: background-color, border-color, color;
+    transition-duration: 200ms;
     &:hover {
-      color: var(--color-bg);
-      background-color: var(--color-body);
+      color: var(--color-primary);
+      background-color: var(--color-secondary);
     }
   }
 
@@ -53,6 +57,7 @@ body {
   .heading {
     display: inline-flex;
     align-items: baseline;
+    color: var(--color-tertiary);
 
     & .permalink {
       border: 0;
@@ -75,10 +80,13 @@ body {
 .posts-list {
   a span {
     @apply border-b;
-    border-color: var(--color-body);
+    font-weight: 400;
+    border-color: var(--color-secondary);
+    transition-property: background-color, border-color, color;
+    transition-duration: 200ms;
     &:hover {
-      color: var(--color-bg);
-      background-color: var(--color-body);
+      color: var(--color-primary);
+      background-color: var(--color-secondary);
     }
   }
 }
@@ -87,10 +95,13 @@ body {
   @apply inline text-sm tracking-wide;
   a {
     @apply border-b;
-    border-color: var(--color-body);
+    font-weight: 400;
+    border-color: var(--color-secondary);
+    transition-property: background-color, border-color, color;
+    transition-duration: 200ms;
     &:hover {
-      color: var(--color-bg);
-      background-color: var(--color-body);
+      color: var(--color-primary);
+      background-color: var(--color-secondary);
     }
   }
 }
@@ -103,10 +114,13 @@ body {
   li {
     a {
       @apply border-b;
-      border-color: var(--color-body);
+      border-color: var(--color-secondary);
+      padding: 0.1rem;
+      transition-property: background-color, border-color, color;
+      transition-duration: 200ms;
       &:hover {
-        color: var(--color-bg);
-        background-color: var(--color-body);
+        color: var(--color-primary);
+        background-color: var(--color-secondary);
       }
     }
   }
@@ -117,10 +131,13 @@ body {
   li {
     a {
       @apply border-b;
-      border-color: var(--color-body);
+      border-color: var(--color-secondary);
+      padding: 0.1rem;
+      transition-property: background-color, border-color, color;
+      transition-duration: 200ms;
       &:hover {
-        color: var(--color-bg);
-        background-color: var(--color-body);
+        color: var(--color-primary);
+        background-color: var(--color-secondary);
       }
     }
   }
@@ -128,20 +145,26 @@ body {
 
 footer nav {
   a {
-    border-color: var(--color-body);
+    border-color: var(--color-secondary);
+    padding: 0.1rem;
+    transition-property: background-color, border-color, color;
+    transition-duration: 200ms;
     &:hover {
-      color: var(--color-bg);
-      background-color: var(--color-body);
+      color: var(--color-primary);
+      background-color: var(--color-secondary);
     }
   }
 }
 
 .translation {
   a {
-    border-color: var(--color-body);
+    border-color: var(--color-secondary);
+    padding: 0.1rem;
+    transition-property: background-color, border-color, color;
+    transition-duration: 200ms;
     &:hover {
-      color: var(--color-bg);
-      background-color: var(--color-body);
+      color: var(--color-primary);
+      background-color: var(--color-secondary);
     }
   }
 }

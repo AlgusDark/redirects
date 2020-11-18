@@ -1,12 +1,13 @@
 :root {
-  --color-bg: #ebebeb;
-  --color-body: #10141a;
+  --color-primary: #ebebeb;
+  --color-secondary: #10141a;
+  --color-tertiary: #8338ec;
   --color-gray: #c3ced8;
 }
 
 .dark {
-  --color-bg: #10141a;
-  --color-body: #ebebeb;
+  --color-primary: #10141a;
+  --color-secondary: #ebebeb;
+  --color-tertiary: #fedb8b;
   --color-gray: #222f44;
-  /* --color-feature-text: #fedb8b; */
 }

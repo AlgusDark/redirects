@@ -1,5 +1,6 @@
 ---
 title: About me
+description: Coder, writer, Doge lover and a passionate dreamer.
 draft: false
 ---
 
