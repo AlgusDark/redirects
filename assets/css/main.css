@@ -26,7 +26,7 @@ body {
 
 #content {
   ul {
-    @apply ml-6 list-disc list-outside;
+    @apply ml-10 list-disc list-outside;
     li {
       @apply mb-2;
     }
