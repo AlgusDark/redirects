@@ -32,6 +32,7 @@ Nada es fácil, **cualquier habilidad requiere de esfuerzo y tiempo** para su ad
 ## Novato
 
 ![Perro con bata de laboratorio y las letras: "I have no idea what I'm doing".](./images/i-have-no-idea.jpg)
+
 El novato es el primer nivel donde comenzamos a realizar muchas preguntas por nuestra poca familiaridad con el tema. Es por esta razón que para avanzar debemos de seguir una serie de reglas al pie de la letra para completar una tarea.
 
 Algo interesante sobre esta etapa es que un estudiante graduado de la universidad, y el cual su enfoque fue sólo sus calificaciones, podría ser un novato. **Algunos estudiantes están mas enfocados en sus calificaciones que en aprender** y hacer algo con el conocimiento obtenido. No todas las personas aprenden a aprender. **Un profesor no precisamente es un experto**, y ser un experto no otorga automáticamente el título de *profesor*. Un profesor no sabrá las respuestás de todo, pero quizá podrá ayudarte a encontrarlas.
@@ -41,6 +42,7 @@ Alguien que está aprendiendo a conducir debe aprender cuando cambiar a la sigui
 ## Principiante Avanzado
 
 ![Gato confundido con el título: "I still don't have a clue".](./images/still-no-clue.jpg)
+
 Una vez que aprendemos las reglas básicas, probablemente hemos llegado a esta etapa. Después de seguir al pie de la letra distintos pasos comenzamos a entender el contexto y las variables que existen en la receta. Por ejemplo, un principiante avanzado de programación tratará de crear nuevas funciones, cambiar variables o tratar de modificar sentencias para observar su comportamiento. **En esta etapa encontramos bastantes errores y fallaremos constantemente**. Pero no hay que temer, los errores nos ayudarán a razonar sobre el porque de las cosas. **Estamos en una etapa de experimentación mas allá de los ejemplos que se nos dieron**. Tienes un ambiente seguro para tratar nuevas cosas.
 
 Llegados a esta etapa aún no hemos entendido el porque de las cosas, aún necesitamos de alguien que nos guíe. Eventualmente, con mas práctica, **comenzaremos a entender la importancia de cada parte** y seremos capaces de caminar a la siguiente etapa.
@@ -48,6 +50,7 @@ Llegados a esta etapa aún no hemos entendido el porque de las cosas, aún neces
 ## Competente
 
 ![Foca confundida con el título: "I know stuff... I think".](./images/i-know-stuff.jpg)
+
 En esta fase seremos capaces de reconocer patrones y las cosas comenzarán a ser interesantes —*por fin*— y frustrantes —*¡Oh no!*—. Aquí **hemos dejado de seguir las reglas** y descubrimos cómo aplicarlas en cualquiera de nuestras actividades. Quizá no necesitas cada una de las reglas que has aprendido, y gracias a la experimentación de la anterior etapa, tendremos una mejor percepción de lo que hace cada una de ellas. Por ejemplo, en álgebra podemos omitir ciertos pasos o despejar variables de una fórmula para obtener la que necesitamos sin tener que buscarla en otra parte. **Comenzamos a aprender a ignorar reglas, comenzamos a jugar con ellas.**
 
 Algo curioso en esta etapa es que **comenzamos a involucrarnos emocionalmente con el resultado de nuestra acciones** ya que estas reglas las estamos formando nosotros mismos. Es por eso que al tener éxito, se experimenta una enorme alegría por la elección correcta de los pasos necesarios.
@@ -57,6 +60,7 @@ Algo curioso en esta etapa es que **comenzamos a involucrarnos emocionalmente co
 ## Capaz
 
 ![El famoso meme del show "el precio de la historia" con el título: "I don't know Rick, it looks fake".](./images/i-dont-know.jpg)
+
 Aquí comenzamos a ver las metas y aspectos destacados, pero no observamos con claridad qué hacer para lograrlo. En pocas palabras, esto significa que **somos muy buenos en lo que hacemos**. Ser capaces nos da la seguridad de obtener resultados positivos en una amplia variedad de posibles situaciones. **A veces inclusive reaccionaremos automáticamente**.
 
 Por ejemplo, si eres un programador, podrás ver código y sentir que algo no está bien. Quizá el nombre de una variable o posiblemente una función es demasiado difícil de lidiar y podría ser re-escrita de una mejor manera. **Tú sabes que algo no cuadra**. Aunque ya se haya identificado los problemas, **aún necesitaremos seleccionar conscientemente entre las diferentes opciones para solucionarlo**. Probablemente se probarán diferentes caminos para ver cuál es la mejor opción.
@@ -64,6 +68,7 @@ Por ejemplo, si eres un programador, podrás ver código y sentir que algo no es
 ## Experto
 
 ![Un tipo apuntando a su cabeza porque el lo sabe. Si, el realmente lo sabe.](./images/i-know.jpg)
+
 Normalmente un experto no calcula. No resuelve problemas. Ni siquiera piensa. Simplemente hace lo que normalmente funciona y, por supuesto, **lo que hace normalmente funciona**. En este punto, el experto ve inmediatamente cómo realizar la tarea gracias a su vasto repertorio de herramientas. **La capacidad de realizar discriminaciones refinadas es lo que distingue al experto de la anterior etapa**.
 
 Como puedes notar, **el experto se rige enteramente por la intuición** y, ante la mirada de los espectadores, esto podría parecer un acto de magia. Por ejemplo, hay un gran número de gente famosa en diferentes areas que, si los ves en vivo o por video, observarás que el realizar su habilidad es como si de respirar se tratase.

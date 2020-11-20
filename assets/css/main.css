@@ -55,6 +55,7 @@ body {
   }
 
   .heading {
+    @apply mt-8;
     display: inline-flex;
     align-items: baseline;
     color: var(--color-tertiary);

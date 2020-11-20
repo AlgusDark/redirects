@@ -3,6 +3,10 @@ title: Uses
 draft: false
 ---
 
+## Workstation
+- Magic Mouse 2
+- Razer BlackWidow Tournament Edition Chroma V2
+
 ## Editor
 - I really love [Visual Studio Code](https://code.visualstudio.com/)
 - [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl&WT.mc_id=twitter-social-sdras) theme by [Sarah Drasner](https://twitter.com/sarah_edo)
