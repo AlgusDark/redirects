@@ -100,6 +100,7 @@ h4,
 h5,
 h6 {
   font-family: "Alegreya";
+  letter-spacing: -0.013rem;
   @apply leading-tight font-bold mb-4;
 }
 
@@ -129,9 +130,9 @@ h6 {
 
 p {
   @apply mb-4;
-  line-height: 1.8;
+  line-height: 1.8rem;
 
   @screen sm {
-    line-height: 2;
+    line-height: 2rem;
   }
 }
