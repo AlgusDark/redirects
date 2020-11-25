@@ -21,8 +21,8 @@ Teaching what he learns and what he wants to learn.
 Consume Anime, Manga, Video Games, Novels and non-fictional books.
 
 ## What is he doing right now?
-Reading, probably on his ebook reader. Learning a new programming language. Discovering Kyoto with his *waifu*. Searching for Doge memes.
+Reading, probably on his ebook reader. Learning a new programming language. Discovering Kyoto with his *waifu*. Searching for Doge memes. Expanding his knowledge.
 
 ## Where do you find Algus?
 
-Writing Here. In Kyoto. At the arcades playing fighting games. [In front of the computer](https://git.algus.ninja). [Tweeting](https://tweet.algus.ninja). [Teaching](https://pues.algus.ninja). [Taking photos](https://ig.algus.ninja). [Making jokes](https://in.algus.ninja).
+Writing Here. In Kyoto. At the arcades playing fighting games. [In front of the computer](https://git.algus.ninja). [Tweeting](https://tweet.algus.ninja). [Teaching](https://pues.algus.ninja). [Taking photos](https://ig.algus.ninja). [Making jokes](https://in.algus.ninja). Behind you when you say his name 3 times in front of a mirror.
