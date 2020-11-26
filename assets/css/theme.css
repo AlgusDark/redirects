@@ -1,21 +1,142 @@
-#theme-toggle {
+.mode-button {
+  padding: 0;
+  appearance: none;
+  align-items: center;
+  background: transparent;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  margin-right: -11px;
+  opacity: 0.75;
+  overflow: hidden;
+  position: relative;
+  transform: scale(0.75);
+  transition: opacity 0.3s ease;
+  vertical-align: middle;
+  width: 40px;
+}
+
+.mode-button:focus {
   outline: none;
 }
 
-.dark #theme-toggle {
-  .sun {
-    display: block;
+.light .mode-button {
+  div:nth-child(1) {
+    background: var(--color-secondary);
+    border-radius: 50%;
+    height: 24px;
+    overflow: hidden;
+    position: relative;
+    transform: scale(1);
+    transition: all 0.45s ease;
+    width: 24px;
   }
-  .moon {
-    display: none;
+
+  div:nth-child(1)::before {
+    border-radius: 50%;
+    content: "";
+    height: 24px;
+    opacity: 1;
+    position: absolute;
+    right: -9px;
+    top: -9px;
+    transform: translate(0, 0);
+    transition: transform 0.45s ease;
+    width: 24px;
+  }
+
+  div:nth-child(1)::after {
+    border-radius: 50%;
+    box-shadow: 0 -23px 0 var(--color-secondary),
+      0 23px 0 var(--color-secondary), 23px 0 0 var(--color-secondary),
+      -23px 0 0 var(--color-secondary), 15px 15px 0 var(--color-secondary),
+      -15px 15px 0 var(--color-secondary), 15px -15px 0 var(--color-secondary),
+      -15px -15px 0 var(--color-secondary);
+    content: "";
+    height: 8px;
+    left: 50%;
+    margin: -4px 0 0 -4px;
+    position: absolute;
+    top: 50%;
+    width: 8px;
+    transform: scale(0);
+    transition: all 0.35s ease;
+  }
+
+  div:nth-child(2) {
+    background: var(--color-primary);
+    border-radius: 50%;
+    border: 0;
+    height: 24px;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(0, 0);
+    transition: background 0.25s ease-out, transform 0.45s ease;
+    width: 24px;
   }
 }
 
-html:not(.dark) #theme-toggle {
-  .sun {
-    display: none;
+.dark .mode-button {
+  div:nth-child(1) {
+    height: 24px;
+    position: relative;
+    transform: scale(0.55);
+    width: 24px;
+    border-radius: 50%;
+    overflow: visible;
+    transition: all 0.45s ease 0s;
   }
-  .moon {
-    display: block;
+
+  div:nth-child(1)::before {
+    content: "";
+    height: 24px;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: var(--color-secondary);
+    width: 24px;
+    border-radius: 50%;
+    transition: transform 0.45s ease 0s;
+  }
+
+  div:nth-child(1)::after {
+    box-shadow: 0 -23px 0 var(--color-secondary),
+      0 23px 0 var(--color-secondary), 23px 0 0 var(--color-secondary),
+      -23px 0 0 var(--color-secondary), 15px 15px 0 var(--color-secondary),
+      -15px 15px 0 var(--color-secondary), 15px -15px 0 var(--color-secondary),
+      -15px -15px 0 var(--color-secondary);
+    content: "";
+    height: 8px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 8px;
+    transform: scale(1);
+    border-radius: 50%;
+    margin: -4px 0px 0px -4px;
+    transition: all 0.35s ease 0s;
+  }
+
+  div:nth-child(2) {
+    background: var(--color-primary);
+    height: 24px;
+    opacity: 0;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transform: translate(14px, -14px);
+    width: 24px;
+    border-radius: 50%;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    transition: background 0.25s ease-out, transform 0.45s ease 0s;
   }
 }

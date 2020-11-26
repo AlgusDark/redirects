@@ -2,7 +2,7 @@ type Mode = "dark" | "light";
 
 let key = "cosmonauta-felino";
 
-let $toggle = document.querySelector("#theme-toggle");
+let $toggle = document.querySelector(".mode-button");
 
 document.addEventListener("DOMContentLoaded", ready);
 
