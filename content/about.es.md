@@ -25,4 +25,4 @@ Leyendo, probablemente en su libreta electrónica. Aprendiendo un nuevo lenguaje
 
 ## ¿Dónde se puede encontrar a Algus?
 
-Escribiendo Aquí. En Kyoto. En las maquinitas jugando juegos de peleas. [Frente a su computadora](https://git.algus.ninja). [En Twitter](https://tweet.algus.ninja). [Enseñando](https://pues.algus.ninja). [Tomando fotos](https://ig.algus.ninja). [Haciendo chistes](https://in.algus.ninja). Detrás de ti cuando dices su nombre 3 veces frente a un espejo.
+Escribiendo aquí. En Kyoto. En las maquinitas jugando juegos de peleas. [Frente a su computadora](https://git.algus.ninja). [En Twitter](https://tweet.algus.ninja). [Enseñando](https://pues.algus.ninja). [Tomando fotos](https://ig.algus.ninja). [Haciendo chistes](https://in.algus.ninja). Detrás de ti cuando dices su nombre 3 veces frente a un espejo.
