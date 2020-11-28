@@ -49,24 +49,29 @@ url = "/posts"
 weight = 3
 
 [[languages.en.menu.footer]]
+name = "Newsletter"
+url = "https://news.algus.ninja"
+weight = 1
+
+[[languages.en.menu.footer]]
 name = "RSS"
 url = "/posts/index.xml"
-weight = 1
+weight = 2
 
 [[languages.en.menu.footer]]
 name = "GitHub"
 url = "https://github.com/algusdark"
-weight = 2
+weight = 3
 
 [[languages.en.menu.footer]]
 name = "Twitter"
 url = "https://twitter.com/algusdark"
-weight = 3
+weight = 4
 
 [[languages.en.menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 4
+weight = 5
 
 [languages.es]
 description = "El espacio para todos mis pensamientos"

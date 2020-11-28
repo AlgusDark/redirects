@@ -3,16 +3,16 @@
   class="container mx-auto text-base mt-24 mb-12 tracking-wide text-center"
 >
   <nav class="w-full mb-4">
-    <ul class="flex justify-center tracking-wide space-x-4 mb-2">
+    <ul class="flex justify-center tracking-wide space-x-4 mb-2 flex-wrap">
       {{ range .Site.Menus.main }}
-        <li>
+        <li class="mb-2">
           <a href="{{ .URL }}">{{ .Name }}</a>
         </li>
       {{ end }}
     </ul>
-    <ul class="flex justify-center tracking-wide space-x-4">
+    <ul class="flex justify-center tracking-wide space-x-4 mb-2 flex-wrap">
       {{ range .Site.Menus.footer }}
-        <li>
+        <li class="mb-2">
           <a href="{{ .URL }}">{{ .Name }}</a>
         </li>
       {{ end }}
