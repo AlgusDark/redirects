@@ -7,10 +7,10 @@
 
 body {
   transition: color 0.25s ease-out, background 0.25s ease-out;
-  font-family: "Merriweather", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+  font-family: "Rubik", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 300;
+  font-weight: 400;
 }
 
 ::selection {
@@ -55,7 +55,7 @@ body {
   a {
     @apply border-b;
     border-color: var(--color-secondary);
-    padding: 0.15rem 0.25rem;
+    padding: 0.15rem 0;
     font-weight: 400;
     transition-property: background-color, border-color, color;
     transition-duration: 200ms;
@@ -75,7 +75,7 @@ body {
   }
 
   .heading {
-    @apply mt-8;
+    @apply mt-4;
     display: inline-flex;
     align-items: baseline;
     color: var(--color-tertiary);
@@ -105,7 +105,7 @@ body {
     border-color: var(--color-secondary);
     transition-property: background-color, border-color, color;
     transition-duration: 200ms;
-    padding: 0.15rem 0.25rem;
+    padding: 0.15rem 0;
     &:hover {
       color: var(--color-primary);
       background-color: var(--color-secondary);
@@ -137,7 +137,7 @@ body {
     a {
       @apply border-b;
       border-color: var(--color-secondary);
-      padding: 0.15rem 0.25rem;
+      padding: 0.15rem 0;
       transition-property: background-color, border-color, color;
       transition-duration: 200ms;
       &:hover {
@@ -154,7 +154,7 @@ body {
     a {
       @apply border-b;
       border-color: var(--color-secondary);
-      padding: 0.15rem 0.25rem;
+      padding: 0.15rem 0;
       transition-property: background-color, border-color, color;
       transition-duration: 200ms;
       &:hover {
@@ -181,7 +181,7 @@ footer nav {
 .translation {
   a {
     border-color: var(--color-secondary);
-    padding: 0.15rem 0.25rem;
+    padding: 0.15rem 0;
     transition-property: background-color, border-color, color;
     transition-duration: 200ms;
     &:hover {

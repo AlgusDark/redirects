@@ -49,7 +49,13 @@ Someone who is learning how to drive needs to learn when to shift to the next ge
 
 ![Confused cat with the caption "I still don't have a clue"](./images/still-no-clue.jpg)
 
-Once we learned the basic rules, we will probably reach this stage. After coping from real examples, we will start understanding the context and noting the variables that matter in the recipe. For example, as an advanced beginner programmer, you will try to add more functionality to your first program, maybe you will change some variables and see if it still works. You have the experience of how to initiate a project with a new programming language and learned the basics so you can start to develop the idea in your mind. **You will find a lot of errors and will fail a lot**. [Don't Panic](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Don't_Panic), the errors will help us to reason about the why. **We are in a stage of experimentation beyond the examples that were given to us**. You have a safe environment to deal with new things.
+Once we learned the basic rules, we will probably reach this stage. After coping from real examples, we will start understanding the context and noting the variables that matter in the recipe.
+
+For example, as an advanced beginner programmer, you will try to add more functionality to your first program, maybe you will change some variables and see if it still works.
+
+You have the experience of how to initiate a project with a new programming language and learned the basics so you can start to develop the idea in your mind. **You will find a lot of errors and will fail a lot**.
+
+[Don't Panic](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Don't_Panic), the errors will help us to reason about the why. **We are in a stage of experimentation beyond the examples that were given to us**. You have a safe environment to deal with new things.
 
 Although we've reached this stage, we haven't fully understood the whole context and still need
 some guidance about why or how things should go. Eventually, with more exposure to the skill and
@@ -60,7 +66,11 @@ able to walk to the next stage.
 
 ![Funny seal with the captions "I know"](./images/i-know-stuff.jpg)
 
-At this phase, we will be able to recognize patterns and the things are going to start to get interesting —_finally_— and frustrating —_oh no!_—. Here **we stopped to follow a set of rules**, and we discover how to apply them in our tasks. Maybe we don't need all the rules for our current task and thanks to the previous stage experimentation, we will be able to have a better perception of what does each of one. In algebra, I started to skip to write some steps as I found it easy to follow them in my head, and if you like it, you probably did the same. **We start to learn how to ignore the rules, we start to play with them**.
+At this phase, we will be able to recognize patterns and the things are going to start to get interesting —_finally_— and frustrating —_oh no!_—.
+
+Here **we stopped to follow a set of rules**, and we discover how to apply them in our tasks. Maybe we don't need all the rules for our current task and thanks to the previous stage experimentation, we will be able to have a better perception of what does each of one.
+
+In algebra, I started to skip to write some steps as I found it easy to follow them in my head, and if you like it, you probably did the same. **We start to learn how to ignore the rules, we start to play with them**.
 
 Something curious about this stage is that **we start to get emotively involved with the outcome** because the rules are form by ourselves. This is why when we success, we experiment a huge joy for the correct set of rules.
 
@@ -70,15 +80,29 @@ This is a hard stage as now the subject is attached to the outcome and can be ve
 
 ![Famous meme from Pawn Stars with caption "I don't know Rick, it looks fake"](./images/i-dont-know.jpg)
 
-At this stage, the involved, experienced performer sees goals and salient aspects but not what to do to achieve these goals. This means that **you're pretty good at what you do**. The proficient performer simply has not yet had enough experience with the outcomes of the wide variety of possible responses to each of the situations **he or she can now discriminate among to react automatically**.
+At this stage, the involved, experienced performer sees goals and salient aspects but not what to do to achieve these goals. This means that **you're pretty good at what you do**.
 
-For example, if you are a programmer, you will see a code and feel that something isn't good, maybe the way the variables are named or could be possible that there are too many things happening in one block and is hard to read or reason about. **You know that it doesn't sound right**. *That code smells*. Although you already identify the smell, **you still need to make a conscious selection among the options on how to fix it**. Probably you will try different paths to see which one is the best option.
+The proficient performer simply has not yet had enough experience with the outcomes of the wide variety of possible responses to each of the situations **he or she can now discriminate among to react automatically**.
+
+For example, if you are a programmer, you will see a code and feel that something isn't good, maybe the way the variables are named or could be possible that there are too many things happening in one block and is hard to read or reason about. 
+
+**You know that it doesn't sound right**. *That code smells*.
+
+Although you already identify the smell, **you still need to make a conscious selection among the options on how to fix it**. Probably you will try different paths to see which one is the best option.
 
 ## Expert
 
 ![Guy pointing to his head because he know it](./images/i-know.jpg)
 
-Normally an expert does not calculate. He or she does not solve problems. He or she does not even think. He or she just does what normally works and, of course, **it normally works**. At this point, the expert sees immediately how to achieve the task with his or her vast repertoire of tools. **The ability to make more subtle and refined discriminations is what distinguishes the expert from the proficient performer**.
+Normally an expert does not calculate.
+
+He or she does not solve problems.
+
+He or she does not even think.
+
+He or she just does what normally works and, of course, **it normally works**. 
+
+At this point, the expert sees immediately how to achieve the task with his or her vast repertoire of tools. **The ability to make more subtle and refined discriminations is what distinguishes the expert from the proficient performer**.
 
 As you can notice, **the expert operates entirely by intuition** and, to the outside spectators, this could seem like magic. For example, there are a lot of famous people in different areas and, if you see them live or in the video, you will look at how they can perform their skill as if it were breathing.
 

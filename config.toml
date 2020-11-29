@@ -48,7 +48,7 @@ name = "Posts"
 url = "/posts"
 weight = 3
 
-[[languages.en.menu.footer]]
+[[languages.es.menu.footer]]
 name = "Newsletter"
 url = "https://news.algus.ninja"
 weight = 1
