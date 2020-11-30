@@ -1,10 +1,10 @@
-<header class="container mb-12 md:px-12 mt-4 mx-auto px-4 text-center">
+<header class="container mb-12 mt-4 mx-auto text-center">
   <a href="/{{ cond (eq .Site.Language.Lang "en") "" .Site.Language.Lang }}">
     <h1 class="tracking-tight uppercase leading-none mb-1 inline-block">
       {{ .Site.Title }}
     </h1>
   </a>
-  <div class="flex flex-row items-center translation">
+  <div class="flex flex-row items-center lg:w-9/12 w-11/12 mx-auto translation">
     {{ if .IsTranslated }}
       {{ range .Translations }}
         <a href="{{ .Permalink }}" data-lang="{{ .Lang }}" title="{{ .Title }}"
