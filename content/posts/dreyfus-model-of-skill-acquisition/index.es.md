@@ -19,7 +19,7 @@ Una de las formas más poderosas de superación personal es **aprender nuevas ha
 
 Existen diferentes etapas de aprendizaje y la mayoría de las personas no están emocionadas de encontrarse en el proceso inicial.
 
-## El modelo Dre...qué?
+## El modelo Dre... qué?
 
 El [modelo Dreyfus](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf) es un *framework* para medir tu progreso en cualquier habilidad. Ya sea que quieres aprender un nuevo idioma, convertirte en un bailarín o aprender a escribir; éste modelo te ayudará a tener una perspectiva clára de dónde te encuentras y cómo mejorar para ir al siguiente nivel.
 
