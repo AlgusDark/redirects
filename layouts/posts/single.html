@@ -1,9 +1,9 @@
 {{ define "main" }}
   {{ $lang := cond (eq .Site.Language.Lang "en") "" ( printf "/%s" .Site.Language.Lang ) }}
   <section class="container mx-auto">
-    <article class="px-4 lg:px-56">
-      <header class="mb-12">
-        <h1 class="leading-tight mb-2">{{ .Title }}</h1>
+    <article class="px-4">
+      <header class="mb-12 md:text-center md:w-11/12 mx-auto">
+        <h1 class="leading-tight mb-2 md:text-6xl">{{ .Title }}</h1>
         <p class="mb-0">
           <time datetime="{{ .Date.Format .Site.Params.time.RFC3339 }}">
             {{- .Date.Format .Site.Params.time.Default -}}
@@ -22,7 +22,7 @@
           </ul>
         {{ end }}
       </header>
-      <div id="content">
+      <div id="content" class="max-w-2xl mx-auto">
         {{ .Content }}
       </div>
       <!-- {{ partial "subscribe" . }} -->
