@@ -1,7 +1,7 @@
 {{ $posts := where (where $.Site.RegularPages "Section" "posts") ".Params.title" "!=" .Title }}
 
 {{ if $posts }}
-  <aside class="mt-8">
+  <aside class="lg:w-9/12 w-11/12 mx-auto">
     <header class="mb-8">
       <h2>{{ i18n "keep_reading" . }}</h2>
     </header>
