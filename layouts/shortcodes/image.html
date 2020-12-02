@@ -1,17 +1,15 @@
-{{ $image := .Get "src"}}
-{{ $type_arr := split $image "." }}
-{{ $srcbase := index $type_arr 0 }}
+{{ $dir := .Page.File.Dir }}
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+{{ $img := imageConfig ($src | printf "content/%s/%s" $dir) }}
+{{ $isFull := .Get "full" | default false }}
 
-<figure style="{{with .Get "width"}}width: {{.}}px;{{end}}{{with .Get "height"}}height: {{.}}px;{{end}}" class="mx-auto {{.Get "figureclass"}}">
-  <picture>
-    <source type="image/webp" srcset="{{$srcbase}}.webp">
-    <source type="image/jpeg" srcset="{{$srcbase}}.jpg">
-    <img
-    src="{{ .Get "src" }}"
-    alt="{{ .Get "alt" }}"
-    class="{{ .Get "class" }} h-full object-cover w-full"
-    {{with .Get "width"}} width="{{.}}" {{end}}
-    {{with .Get "height"}} height="{{.}}" {{end}}
-  />
-  </picture>
+<figure class="flex flex-col items-center mb-8 {{cond $isFull "full-bleed" ""}}">
+  <img
+    class="rounded-md shadow-lg"
+    src="{{ .Get "src" | safeURL }}"
+    {{with .Get "alt"}} alt="{{ . }}"{{ end }}
+    {{with .Get "title"}} title="{{ . }}"{{ end }}
+    width="{{$img.Width}}"
+    height="{{$img.Height}}"
+    />
 </figure>

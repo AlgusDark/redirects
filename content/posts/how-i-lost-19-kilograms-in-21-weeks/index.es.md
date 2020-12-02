@@ -23,7 +23,7 @@ Agacharme, caminar, estar de pie o el simple hecho de existir me estaban cobrand
 
 ¿Alguna vez has visto la película de **Batman regresa**? En esa película aparece el pingüino, interpretado por **Danny DeVito**. Bueno, lo recordé cuando me vi un día en el reflejo de un edificio cuando estaba caminando alegremente.
 
-![Danny Devito siendo maquillado para su papel como el pingüino en la película "Batman regresa"](./images/danny-devito-batman-returns.jpg)
+![Danny Devito siendo maquillado para su papel como el pingüino en la película "Batman regresa"](images/danny-devito-batman-returns.jpg)
 
 Ese día fue muy impactante para mí. Tener esa imagen en mi cerebro fue lo que hizo clic para que dijera:
 
@@ -57,7 +57,7 @@ Nunca pude bajar de peso en los gimnasios a los que asistía. Por lo general nun
 
 Por dicha razón, mi meta se estableció en bajar 1 kilogramo al mes.
 
-![Uno de mis stats en RingFit mostrando 421.27 kilo calorías quemadas](images/ringfit-stats.jpg)
+{{< image src="images/ringfit-stats.jpg" alt="Uno de mis stats en RingFit mostrando 421.27 kilo calorías quemadas" full=true >}}
 
 ## El primer mes
 
@@ -109,11 +109,11 @@ Dejé de usar el elevador. Aún en estos tiempos difíciles por la pandemia, nec
 
 Mi historia comenzó con 99 kilogramos. Y bien pude hacer cosplay del gato con el subtítulo de **heavy breathing**.
 
-![](images/carlos-before.jpg)
+{{< image src="images/carlos-before.jpg" full=true >}}
 
 Hoy en día estoy muy felíz con mis **80 kilogramos**.
 
-![](images/carlos-after.jpg)
+{{< image src="images/carlos-after.jpg" full=true >}}
 
 Ya no juego tan seguido RingFit, pero me gusta [compartir mis estadísticas en twitter](https://twitter.com/search?q=(%23RingFitAdventure)%20(from%3AAlgusDark)&src=typed_query) para motivarme a seguir haciéndolo. Actualmente llevo más mas de 32 horas de ejercicio. Digo de ejercicio pues al jugar 1 hora, entre diálogos y demás opciones, sólo 25 a 30 minutos son realmente de ejercicio.
 

@@ -36,7 +36,7 @@ your goal, then you should keep looking forward to improving that skill.
 
 ## Novice
 
-![Dog in a chemistry lab with the caption "I have no idea what I'm doing"](./images/i-have-no-idea.jpg)
+![Dog in a chemistry lab with the caption 'I have no idea what I'm doing'](images/i-have-no-idea.jpg)
 
 The novice stage is the first level of skill acquisition where you are just getting started in the skill and have little familiarity with it. Because you don't have any idea of what you're doing or how to keep advancing, the best way of acquiring knowledge is by following a set of rules to complete the task within the skill.
 
@@ -47,7 +47,7 @@ Someone who is learning how to drive needs to learn when to shift to the next ge
 
 ## The Advanced Beginner
 
-![Confused cat with the caption "I still don't have a clue"](./images/still-no-clue.jpg)
+![Confused cat with the caption 'I still don't have a clue'](images/still-no-clue.jpg)
 
 Once we learned the basic rules, we will probably reach this stage. After coping from real examples, we will start understanding the context and noting the variables that matter in the recipe.
 
@@ -64,7 +64,7 @@ able to walk to the next stage.
 
 ## Competent
 
-![Funny seal with the captions "I know"](./images/i-know-stuff.jpg)
+![Funny seal with the captions 'I know'](images/i-know-stuff.jpg)
 
 At this phase, we will be able to recognize patterns and the things are going to start to get interesting —_finally_— and frustrating —_oh no!_—.
 
@@ -78,7 +78,7 @@ This is a hard stage as now the subject is attached to the outcome and can be ve
 
 ## Proficient
 
-![Famous meme from Pawn Stars with caption "I don't know Rick, it looks fake"](./images/i-dont-know.jpg)
+![Famous meme from Pawn Stars with caption 'I don't know Rick, it looks fake'](images/i-dont-know.jpg)
 
 At this stage, the involved, experienced performer sees goals and salient aspects but not what to do to achieve these goals. This means that **you're pretty good at what you do**.
 
@@ -92,7 +92,7 @@ Although you already identify the smell, **you still need to make a conscious se
 
 ## Expert
 
-![Guy pointing to his head because he know it](./images/i-know.jpg)
+![Guy pointing to his head because he know it](images/i-know.jpg)
 
 Normally an expert does not calculate.
 

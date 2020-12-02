@@ -39,7 +39,7 @@ Pero... **¿Éres un experto en caminar?** *Tal vez no*, y eso está bien. No to
 
 ## Novato
 
-![Perro con bata de laboratorio y las letras: "I have no idea what I'm doing".](./images/i-have-no-idea.jpg)
+![Perro con bata de laboratorio y las letras: "I have no idea what I'm doing".](images/i-have-no-idea.jpg)
 
 El novato es el primer nivel donde comenzamos a realizar muchas preguntas por nuestra poca familiaridad con el tema. Es por esta razón que para avanzar debemos de seguir una serie de reglas al pie de la letra para completar una tarea.
 
@@ -55,7 +55,7 @@ Sin embargo, una persona que se encuentra en ésta etapa podría decirte que esc
 
 ## Principiante Avanzado
 
-![Gato confundido con el título: "I still don't have a clue".](./images/still-no-clue.jpg)
+![Gato confundido con el título: "I still don't have a clue".](images/still-no-clue.jpg)
 
 Una vez que aprendemos las reglas básicas, probablemente hemos llegado a esta etapa. Después de seguir al pie de la letra distintos pasos comenzamos a entender el contexto y las variables que existen en la receta.
 
@@ -69,7 +69,7 @@ Llegados a esta etapa aún no hemos entendido el porque de las cosas, aún neces
 
 ## Competente
 
-![Foca confundida con el título: "I know stuff... I think".](./images/i-know-stuff.jpg)
+![Foca confundida con el título: "I know stuff... I think".](images/i-know-stuff.jpg)
 
 En esta fase seremos capaces de reconocer patrones y las cosas comenzarán a ser interesantes —*por fin*— y frustrantes —*¡Oh no!*—.
 
@@ -83,7 +83,7 @@ Algo curioso en esta etapa es que **comenzamos a involucrarnos emocionalmente co
 
 ## Capaz
 
-![El famoso meme del show "el precio de la historia" con el título: "I don't know Rick, it looks fake".](./images/i-dont-know.jpg)
+![El famoso meme del show "el precio de la historia" con el título: "I don't know Rick, it looks fake".](images/i-dont-know.jpg)
 
 Aquí comenzamos a ver las metas y aspectos destacados, pero no observamos con claridad qué hacer para lograrlo. En pocas palabras, esto significa que **somos muy buenos en lo que hacemos**.
 
@@ -97,7 +97,7 @@ Aunque ya se haya identificado los problemas, **aún necesitaremos seleccionar c
 
 ## Experto
 
-![Un tipo apuntando a su cabeza porque el lo sabe. Si, el realmente lo sabe.](./images/i-know.jpg)
+![Un tipo apuntando a su cabeza porque el lo sabe. Si, el realmente lo sabe.](images/i-know.jpg)
 
 Normalmente un experto no calcula.
 

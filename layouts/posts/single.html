@@ -26,11 +26,11 @@
         {{ .Content }}
       </div>
       <!-- {{ partial "subscribe" . }} -->
-      <aside class="lg:w-9/12 w-11/12 mx-auto mt-8">
+      <aside class="lg:w-9/12 mx-auto mt-8">
         <nav>
           <ul class="prev-next-post space-x-4">
             {{ if .PrevInSection }}
-              <li class="text-left flex-grow mb-2">
+              <li class="text-left flex-grow md:mb-0 mb-2">
                 <a rel="prev" href="{{ .PrevInSection.Permalink }}"
                   >← {{ .PrevInSection.Title }}</a
                 >

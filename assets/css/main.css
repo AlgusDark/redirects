@@ -98,6 +98,14 @@ body {
   }
 }
 
+.full-bleed {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  padding: 0 1em;
+}
+
 .posts-list {
   a span {
     @apply border-b;

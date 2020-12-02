@@ -4,7 +4,7 @@ description: Desarrollador de Software, escritor, amante de Doge y un soñador.
 draft: false
 ---
 
-{{< image width="280" height="280" src="/images/avatar.jpg" alt="Algus smiling" class="rounded-full shadow-2xl" figureclass="mb-8" >}}
+{{< picture width="280" height="280" src="/images/avatar.jpg" alt="Algus smiling" class="rounded-full shadow-2xl" figureclass="mb-8" >}}
 
 ## Algus Dark (A.K.A. Carlos Pérez Gutiérrez)
 Desarrollador de Software, escritor, amante de Doge y un soñador.

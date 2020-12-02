@@ -1,4 +1,9 @@
-<figure class="flex flex-col items-center mb-8">
-  <img class="rounded-md shadow-lg" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+{{ $img := imageConfig (.Page.Resources.GetMatch (printf "*%s*" (.Destination)) | printf "content/%s%s" .Page.File.Dir) }}<figure class="flex flex-col items-center mb-8">
+  <img
+    class="rounded-md shadow-lg"
+    src="{{ .Destination | safeURL }}"
+    alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }}
+    width="{{$img.Width}}"
+    height="{{$img.Height}}"
+    />
 </figure>
-
