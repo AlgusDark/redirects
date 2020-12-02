@@ -114,3 +114,6 @@ weight = 2
 name = "Twitter"
 url = "https://twitter.com/algusdark"
 weight = 3
+
+[markup.goldmark.renderer]
+unsafe = true
