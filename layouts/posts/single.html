@@ -25,7 +25,9 @@
       <div id="content" class="max-w-2xl mx-auto">
         {{ .Content }}
       </div>
-      <!-- {{ partial "subscribe" . }} -->
+      {{if eq .Language.LanguageName "Español"}}
+        {{ partial "subscribe" . }}
+      {{end}}
       <aside class="lg:w-9/12 mx-auto mt-8">
         <nav>
           <ul class="prev-next-post space-x-4">

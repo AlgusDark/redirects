@@ -1,12 +1,6 @@
-<form
-  class="newsletter"
-  action="https://tinyletter.com/AlgusDark"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://tinyletter.com/AlgusDark', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
->
-  <h1 class="text-center">Join the newsletter</h1>
-  <svg width="46" height="46" fill="none" xmlns="http://www.w3.org/2000/svg">
+<div class="newsletter">
+  <h1 class="text-center">Suscríbete al newsletter</h1>
+  <svg class="mb-4" width="46" height="46" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0)">
       <path
         d="M42.756 19.597L25 8.411a3.743 3.743 0 00-4.002 0L3.244 19.597A2.951 2.951 0 001.857 22.1v20.135c0 1.707 1.355 3.091 3.026 3.091h36.234c1.672 0 3.026-1.384 3.026-3.091V22.1c0-.046 0-.09-.002-.134a2.952 2.952 0 00-1.385-2.369z"
@@ -57,26 +51,15 @@
       <clipPath id="clip0"><path fill="#fff" d="M0 0h46v46H0z" /></clipPath>
     </defs>
   </svg>
-  <p class="t-4">
-    I write about what I'm learning in this journey called life.
-  </p>
   <p>
-    <input
-      type="text"
-      class="rounded px-2 py-1 border text-black"
-      name="email"
-      placeholder="Enter your email address"
-      id="tlemail"
-    />
+    Escribo sobre mis experiencias en japón y comparto links interesantes.
   </p>
-  <input type="hidden" value="1" name="embed" />
-  <input
-    type="submit"
-    value="Subscribe"
-    class="px-2 py-1 my-4 bg-teal-700 text-white rounded"
-  />
+  <p>También estarás al día con mis proyectos y los nuevos posts.</p>
+  <a
+    href="https://algus.substack.com/subscribe?simple=true&next=https://algus.substack.com/"
+    class="px-2 py-1 mt-4 mb-8 bg-teal-700 text-white rounded">Suscríbete</a>
   <p class="text-base text-center mb-0">
-    I'll never send you spam. <br />
-    Unsubscribe at any time.
+    Nunca te mandaré spam. <br />
+    Puedes darte de baja cuando quieras.
   </p>
-</form>
+</div>
