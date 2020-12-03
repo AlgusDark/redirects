@@ -7,11 +7,11 @@ image: images/heavy-breathing.jpg
 draft: false
 ---
 
-![Gato gordo mirando con la mira perdida con subtítulo de "heavy breathing"](images/heavy-breathing.jpg)
+![Gato gordo mirando con la mira perdida con subtítulo de 'heavy breathing'](images/heavy-breathing.jpg)
 
 *Vaya, ahora si que me quité un peso de encima*.
 
-Desde muy chico he sido, como mi familia y amigos me describen, de buen comer. No le pongo pero a la cocina de conocidos o desconocidos. Probar algo nuevo es una explosión de sabores que hace de cada bocado una gran experiencia.
+Desde muy chico he sido, como mi familia y amigos me describen, de buen comer. No le pongo ningún pero a la cocina de conocidos o desconocidos. Probar algo nuevo es una explosión de sabores que hace de cada bocado una gran experiencia.
 
 En pocas palabras: mi estómago era felíz.
 
@@ -23,7 +23,7 @@ Agacharme, caminar, estar de pie o el simple hecho de existir me estaban cobrand
 
 ¿Alguna vez has visto la película de **Batman regresa**? En esa película aparece el pingüino, interpretado por **Danny DeVito**. Bueno, lo recordé cuando me vi un día en el reflejo de un edificio cuando estaba caminando alegremente.
 
-![Danny Devito siendo maquillado para su papel como el pingüino en la película "Batman regresa"](images/danny-devito-batman-returns.jpg)
+![Danny Devito siendo maquillado para su papel como el pingüino en la película 'Batman regresa'](images/danny-devito-batman-returns.jpg)
 
 Ese día fue muy impactante para mí. Tener esa imagen en mi cerebro fue lo que hizo clic para que dijera:
 
