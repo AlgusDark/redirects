@@ -93,7 +93,9 @@ Mi motivación comenzó a crecer y seguí adelante.
 
 Mi ejercicio constaba en ejercicios simples gracias a la ayuda del RingFit. Necesitaba algo mas para reafirmar toda la masa que iría perdiendo. Tenía miedo de tener mucha piel sin refinar.
 
-Es curioso, pero siempre he tenido un par de mancuernas y nunca las había usado. Puedo recordar fácilmente 4 pares de mancuernas que tuve que regalar o vender ya que nunca les dí un uso. Pero ahora era alguien diferente.
+Es curioso, pero siempre he tenido un par de mancuernas y nunca las había usado. Puedo recordar fácilmente 4 pares de mancuernas que tuve que regalar o vender ya que nunca les dí un uso. 
+
+*Ahora era alguien diferente*.
 
 Encontré una página muy interesante donde comparten diversos planes de ejercicio. Allí fue donde descargué gratuitamente [un plan de solo mancuernas](https://www.muscleandstrength.com/workouts/dumbbell-only-home-or-gym-fullbody-workout.html) que seguí por las siguientes semanas. Para ello debí invertir en un [banco de entrenamiento](https://www.amazon.co.jp/-/en/gp/product/B01M9D4AAW/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1).
 
