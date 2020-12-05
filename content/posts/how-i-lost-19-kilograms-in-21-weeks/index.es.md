@@ -123,7 +123,7 @@ Ya no juego tan seguido RingFit, pero me gusta [compartir mis estadísticas en t
 
 No ha sido un camino sencillo. Pero fue un camino que he disfrutado y sigo disfrutando. Es muy curioso como muchos de mis problemas desaparecieron. Vivir con obesidad por la mayor parte de mi vida me hizo darme cuenta de que mis problemas no eran normales.
 
-Mis consejo son:
+Mis consejos son:
 
 - Encuentra el tiempo ideal para realizar ejercicio.
 
