@@ -1,32 +1,41 @@
 const path = require("path");
 
 module.exports = {
-  future: {
-    purgeLayersByDefault: true,
-  },
   purge: {
-    content: ["./layouts/**/*.html", "./content/**/*.md"],
+    enabled: process.env.NODE_ENV === "production",
+    content: ["./hugo_stats.json"],
+    mode: "all",
+    preserveHtmlElements: false,
     options: {
-      whitelist: ["dark"],
+      defaultExtractor: (content) => {
+        let els = JSON.parse(content).htmlElements;
+        els = els.tags.concat(els.classes, els.ids);
+        return els;
+      },
     },
   },
+  darkMode: "class",
   theme: {
-    darkSelector: ".dark",
     extend: {
       colors: {
         primary: "var(--color-primary)",
         secondary: "var(--color-secondary)",
         tertiary: "var(--color-tertiary)",
       },
+      fontSize: {
+        xs: "0.75rem",
+        sm: "0.875rem",
+        base: "1rem",
+        lg: "1.125rem",
+        xl: "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "4xl": "2.25rem",
+        "5xl": "3rem",
+        "6xl": "4rem",
+      },
     },
   },
-  variants: {
-    borderStyle: ["responsive", "hover", "focus"],
-    display: ["dark", "responsive"],
-    opacity: ["responsive", "hover", "focus", "active", "group-hover"],
-    scale: ["responsive", "hover", "focus", "group-hover"],
-    textColor: ["responsive", "hover", "focus", "group-hover"],
-    translate: ["responsive", "hover", "focus", "active", "group-hover"],
-  },
-  plugins: [require("tailwindcss-dark-mode")()],
+  variants: {},
+  plugins: [],
 };

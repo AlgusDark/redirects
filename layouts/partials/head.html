@@ -154,11 +154,12 @@
   <link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-v11-latin-regular.woff2" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="/fonts/rubik-v11-latin-700.woff2" crossorigin>
   
+  {{ $options := dict "config" "./assets/postcss.config.js" "inlineImports" true}}
   {{ $styles := resources.Get "css/main.css" }}
-  {{ $styles = $styles | postCSS (dict "config" "./assets/postcss.config.js")  }}
+  {{ $styles = $styles | postCSS $options  }}
 
   {{ if hugo.IsProduction }}
-    {{ $styles = $styles | postCSS (dict "config" "./assets/postcss.config.js") | minify | fingerprint }}
+    {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
   {{ end }}
 
   <link href="{{ $styles.Permalink }}" rel="stylesheet" />
