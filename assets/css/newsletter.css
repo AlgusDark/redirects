@@ -5,6 +5,12 @@
   max-width: 400px;
   background-color: #5ed4c6;
   @apply rounded-xl p-5 my-16 mx-auto;
+
+  .button {
+    --bg-opacity: 1;
+    background-color: #2c7a7b;
+    background-color: rgba(44, 122, 123, var(--bg-opacity));
+  }
 }
 
 .dark .newsletter {

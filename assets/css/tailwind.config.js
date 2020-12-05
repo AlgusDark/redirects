@@ -3,16 +3,8 @@ const path = require("path");
 module.exports = {
   purge: {
     enabled: process.env.NODE_ENV === "production",
-    content: ["./hugo_stats.json"],
+    content: ["./layouts/**/*.html", "./content/**/*.md"],
     mode: "all",
-    preserveHtmlElements: false,
-    options: {
-      defaultExtractor: (content) => {
-        let els = JSON.parse(content).htmlElements;
-        els = els.tags.concat(els.classes, els.ids);
-        return els;
-      },
-    },
   },
   darkMode: "class",
   theme: {

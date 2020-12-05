@@ -5,13 +5,6 @@ module.exports = {
     }),
     require("tailwindcss")("./assets/css/tailwind.config.js"),
     require("postcss-nested"),
-    ...(process.env.NODE_ENV === "production"
-      ? [
-          require("autoprefixer"),
-          require("cssnano")({
-            preset: ["default", { discardComments: { removeAll: true } }],
-          }),
-        ]
-      : []),
+    ...(process.env.NODE_ENV === "production" ? [require("autoprefixer")] : []),
   ],
 };

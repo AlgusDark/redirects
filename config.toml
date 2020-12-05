@@ -117,7 +117,3 @@ weight = 3
 
 [markup.goldmark.renderer]
 unsafe = true
-
-[build]
-# Used by PurgeCSS
-writeStats = true
