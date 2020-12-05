@@ -95,7 +95,7 @@ Mi ejercicio constaba en ejercicios simples gracias a la ayuda del RingFit. Nece
 
 Es curioso, pero siempre he tenido un par de mancuernas y nunca las había usado. Puedo recordar fácilmente 4 pares de mancuernas que tuve que regalar o vender ya que nunca les dí un uso. Pero ahora era alguien diferente.
 
-Encontré una página muy interesante donde comparten diversos planes de ejercicio. Allí fue donde descargué gratuitamente [un plan de solo mancuernas](https://www.muscleandstrength.com/workouts/dumbbell-only-home-or-gym-fullbody-workout.html) que seguí por las siguientes semanas. Para ello debí invertir en una [banco de entrenamiento](https://www.amazon.co.jp/-/en/gp/product/B01M9D4AAW/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1).
+Encontré una página muy interesante donde comparten diversos planes de ejercicio. Allí fue donde descargué gratuitamente [un plan de solo mancuernas](https://www.muscleandstrength.com/workouts/dumbbell-only-home-or-gym-fullbody-workout.html) que seguí por las siguientes semanas. Para ello debí invertir en un [banco de entrenamiento](https://www.amazon.co.jp/-/en/gp/product/B01M9D4AAW/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1).
 
 Realicé varios experimentos en el transcurso de varias semanas.
 
