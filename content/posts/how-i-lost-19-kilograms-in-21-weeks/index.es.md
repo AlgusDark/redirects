@@ -75,7 +75,7 @@ Para esta etapa ya tenía mi rutina definida. Me sentía muy bien jugando "RingF
 
 *Respiré profundamente*.
 
-Subí sin miedo mis pues y permanecí mirando el paisaje a través de la ventana de mi cuarto mientras los números subían con el tiempo.
+Subí sin miedo mis pies y permanecí mirando el paisaje a través de la ventana de mi cuarto mientras los números subían con el tiempo.
 
 **95 Kilogramos**.
 
