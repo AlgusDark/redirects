@@ -1,8 +1,7 @@
 {{ define "main" }}
   <div class="px-4 lg:px-56 container mx-auto">
     <section id="content" class="mb-20">
-      <h2>{{ i18n "greetings" . }}</h2>
-      {{ i18n "introduction" .Site.Params | safeHTML }}
+      {{ .Content }}
     </section>
     <section>
       <h2>{{ i18n "recent_posts" }}</h2>

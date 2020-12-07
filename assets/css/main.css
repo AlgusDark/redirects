@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/*! purgecss start ignore */
 @import "vars.css";
 @import "syntax.css";
 @import "typography.css";
@@ -182,6 +183,7 @@ footer nav {
     padding: 0.15rem 0.25rem;
     transition-property: background-color, border-color, color;
     transition-duration: 200ms;
+
     &:hover {
       color: var(--color-primary);
       background-color: var(--color-secondary);
@@ -192,9 +194,10 @@ footer nav {
 .translation {
   a {
     border-color: var(--color-secondary);
-    padding: 0.15rem 0;
+    padding: 0.15rem 0.25rem;
     transition-property: background-color, border-color, color;
     transition-duration: 200ms;
+
     &:hover {
       color: var(--color-primary);
       background-color: var(--color-secondary);
@@ -206,3 +209,5 @@ ol,
 ul {
   @apply mb-4;
 }
+
+/*! purgecss end ignore */
