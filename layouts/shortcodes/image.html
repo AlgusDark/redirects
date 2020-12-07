@@ -9,6 +9,7 @@
     src="{{ .Get "src" | safeURL }}"
     {{with .Get "alt"}} alt="{{ . }}"{{ end }}
     {{with .Get "title"}} title="{{ . }}"{{ end }}
+    loading="lazy"
     width="{{$img.Width}}"
     height="{{$img.Height}}"
     />

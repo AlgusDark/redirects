@@ -9,6 +9,7 @@
     <img
     src="{{ .Get "src" }}"
     alt="{{ .Get "alt" }}"
+    loading="lazy"
     class="{{ .Get "class" }} h-full object-cover w-full"
     {{with .Get "width"}} width="{{.}}" {{end}}
     {{with .Get "height"}} height="{{.}}" {{end}}
