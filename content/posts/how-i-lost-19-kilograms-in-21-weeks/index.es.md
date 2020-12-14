@@ -126,20 +126,20 @@ No ha sido un camino sencillo. Pero fue un camino que he disfrutado y sigo disfr
 Mis consejos son:
 
 - Encuentra el tiempo ideal para realizar ejercicio.
-
-Si crees que no tienes tiempo, encuentra una manera de crear mas tiempo. Yo comencé a despertarme a las *6:30am* para ello. Fue difícil al principio, pero hoy en día estoy muy felíz y satisfecho con los resultados. Luego escribiré sobre ello y otros tips de productividad.
+  
+  Si crees que no tienes tiempo, encuentra una manera de crear mas tiempo. Yo comencé a despertarme a las *6:30am* para ello. Fue difícil al principio, pero hoy en día estoy muy felíz y satisfecho con los resultados. Luego escribiré sobre ello y otros tips de productividad.
 
 - Establece una meta.
-
-Mi meta era muy pequeña y alcanzable. No puedo decir que sencilla porque todo puede pasar. Sin embargo, conforme a mi experiencia anterior, decidí que era la adecuada para mi. Busca tu meta.
+  
+  Mi meta era muy pequeña y alcanzable. No puedo decir que sencilla porque todo puede pasar. Sin embargo, conforme a mi experiencia anterior, decidí que era la adecuada para mi. Busca tu meta.
 
 - Escucha tu cuerpo.
-
-Aunque no hice una dieta como tal, el sólo hecho de bajar mi consumo diario mejoró mi salud. Investigué sobre el consumo y quema de calorías. Intenté llevar un diario de calorías pero me fue difícil llevarlo todos los días. Para ello opté por llevarlo rigurosamente una semana y aplicar un estimado mental en las siguientes semanas. Siempre es bueno experimentar.
+  
+  Aunque no hice una dieta como tal, el sólo hecho de bajar mi consumo diario mejoró mi salud. Investigué sobre el consumo y quema de calorías. Intenté llevar un diario de calorías pero me fue difícil llevarlo todos los días. Para ello opté por llevarlo rigurosamente una semana y aplicar un estimado mental en las siguientes semanas. Siempre es bueno experimentar.
 
 - Alínea el ejercicio con tus gustos
-
-Sonará algo muy extraño, pero el jugar RingFit hizo que me diera cuenta lo divertido que era hacer ejercicio. Subir de nivel es una experiencia maravillosa ya que hay progreso en tu trabajo. Lo mejor de todo es que se veía reflejado en la vida real. Es como jugar un [MMORPG](https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game) con puntos de experiencia para asignar y crear el *build* que mas te guste.
+  
+  Sonará algo muy extraño, pero el jugar RingFit hizo que me diera cuenta lo divertido que era hacer ejercicio. Subir de nivel es una experiencia maravillosa ya que hay progreso en tu trabajo. Lo mejor de todo es que se veía reflejado en la vida real. Es como jugar un [MMORPG](https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game) con puntos de experiencia para asignar y crear el *build* que mas te guste.
 
 ## Y al final...
 

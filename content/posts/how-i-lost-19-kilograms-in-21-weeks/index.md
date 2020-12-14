@@ -124,20 +124,20 @@ It wasn't an easy journey but it was one that I've enjoyed and I'm still doing i
 My advice is:
 
 - Find the ideal time to exercise.
-
-If you think you don't have time, find a way to create more. I started waking up at *6:30 am* for it. It was difficult at first, but today I'm very happy and satisfied with the results. I'll write more about this topic in the future.
+  
+  If you think you don't have time, find a way to create more. I started waking up at *6:30 am* for it. It was difficult at first, but today I'm very happy and satisfied with the results. I'll write more about this topic in the future.
 
 - Set a goal.
-
-My goal was very small and achievable. I cannot say that it was simple because anything could happened. However, based on my previous experience, I decided it was the right fit for me. Find your goal.
+  
+  My goal was very small and achievable. I cannot say that it was simple because anything could happened. However, based on my previous experience, I decided it was the right fit for me. Find your goal.
 
 - Listen to your body.
-
-Although I didn't do any diet as such, simply reducing my daily intake improved my health. I researched the consumption and burning of calories. I tried keeping a calory diary but it was difficult for me to keep it update. For this I opted to make it rigorously for a week and apply a mental estimate in the following weeks. It is always good to experiment.
+  
+  Although I didn't do any diet as such, simply reducing my daily intake improved my health. I researched the consumption and burning of calories. I tried keeping a calory diary but it was difficult for me to keep it update. For this I opted to make it rigorously for a week and apply a mental estimate in the following weeks. It is always good to experiment.
 
 - Align the exercise with your hobbies.
-
-It will sound very strange, but playing RingFit made me realize how much fun exercising was. Leveling up is a wonderful experience as there is progress in your work. Best of all, it was reflected in real life. It's like playing an [MMORPG](https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game) with experience points to assign and create the *build* that you like the best.
+  
+  It will sound very strange, but playing RingFit made me realize how much fun exercising was. Leveling up is a wonderful experience as there is progress in your work. Best of all, it was reflected in real life. It's like playing an [MMORPG](https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game) with experience points to assign and create the *build* that you like the best.
 
 ## At the end...
 
