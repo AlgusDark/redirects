@@ -1,7 +1,7 @@
 ---
 title: "¿Cómo lidiar con tanta información?"
 description: Y cómo no perderse en el inmenso mundo digital.
-date: 2020-12-14T18:31:01+09:00
+date: 2020-12-17T18:31:01+09:00
 tags: [TIL]
 image: images/garden.jpg
 draft: false
