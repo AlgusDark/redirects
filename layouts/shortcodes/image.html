@@ -9,8 +9,11 @@
 
 <figure class="flex flex-col items-center mb-8 {{cond $isFull "full-bleed" ""}}">
   <picture>
-    {{ range .Page.Resources.Match (printf "%s*" $srcbase)}}
-      <source type="{{.MediaType}}" srcset="{{.Name}}">
+    {{with .Page.Resources.GetMatch (printf "%s.webp" $srcbase)}}
+      <source type="image/webp" srcset="{{.Name}}">
+    {{end}}
+    {{with .Page.Resources.GetMatch (printf "%s.jpg" $srcbase)}}
+      <source type="image/jpeg" srcset="{{.Name}}">
     {{end}}
     <img
       class="rounded-md shadow-lg"
