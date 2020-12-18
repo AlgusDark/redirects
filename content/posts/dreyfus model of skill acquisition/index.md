@@ -2,7 +2,7 @@
 title: Dreyfus Model of skill acquisition
 description: You Know Nothing, Jon Snow.
 date: 2020-11-19
-tags: [knowledge, TIL]
+tags: [knowledge, til]
 image: images/i-have-no-idea.jpg
 draft: false
 ---

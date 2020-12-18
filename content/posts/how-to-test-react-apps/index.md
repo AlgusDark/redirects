@@ -2,7 +2,7 @@
 title: How to test React apps?
 bgImage: "./rainy.gif"
 description: Writing maintainable tests for the Web.
-tags: [JavaScript, Programming]
+tags: [javascript, programming]
 date: 2019-10-26
 draft: true
 ---

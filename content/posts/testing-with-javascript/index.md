@@ -1,7 +1,7 @@
 ---
 title: What is and how can we Test something?
 description: Smashing keys until something works or stops working.
-tags: [JavaScript, Programming]
+tags: [javascript, programming]
 date: 2019-10-12
 draft: true
 ---

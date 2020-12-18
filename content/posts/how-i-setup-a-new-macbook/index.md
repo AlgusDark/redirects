@@ -2,7 +2,7 @@
 title: How I setup a new development environment
 description: It takes time to setup a new development environment. Thank God developers are so lazy.
 date: 2020-05-19
-tags: [Development]
+tags: [development]
 draft: true
 ---
 
