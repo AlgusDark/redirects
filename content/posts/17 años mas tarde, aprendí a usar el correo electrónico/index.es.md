@@ -1,7 +1,7 @@
 ---
 title: "17 años después aprendí a usar el correo electrónico"
 description: A cool description please!
-date: 2020-12-21T11:51:20+09:00
+date: 2021-01-28T11:51:20+09:00
 tags: [productivity]
 image: images/mail.jpg
 draft: false
