@@ -3,3 +3,6 @@ resources
 node_modules
 
 .DS_Store
+.obsidian
+
+hugo_stats.json

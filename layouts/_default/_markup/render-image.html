@@ -1,0 +1,25 @@
+{{- if fileExists (printf "content/notes/attachments/%s" .Destination) -}}
+  {{- $img := imageConfig (printf "content/notes/attachments/%s" .Destination) -}}
+  {{- $image := .Destination -}}
+  {{- $type_arr := split $image "." -}}
+  {{- $srcbase := index $type_arr 0 -}}
+  <figure class="flex flex-col items-center full-bleed">
+    <picture>
+      {{- if fileExists (printf "content/notes/attachments/%s.webp" $srcbase) -}}
+        <source type="image/webp" srcset="{{- printf "/%s.webp" $srcbase -}}">
+      {{- end -}}
+      {{- if fileExists (printf "content/notes/attachments/%s.jpg" $srcbase) -}}
+        <source type="image/jpeg" srcset="{{- printf "/%s.jpg" $srcbase -}}">
+      {{- end -}}
+      <img
+        class="rounded-md shadow-lg"
+        src="{{- printf `/%s` .Destination | safeURL -}}"
+        {{- with .Text -}} alt="{{- . -}}"{{- end -}}
+        {{- with .Title -}} title="{{- . -}}"{{- end -}}
+        loading="lazy"
+        width="{{- $img.Width -}}"
+        height="{{- $img.Height -}}"
+        />
+    </picture>
+  </figure>
+{{- end -}}

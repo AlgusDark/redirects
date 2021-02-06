@@ -1,26 +1,23 @@
 {
-  "name": "quickstart",
+  "name": "algus",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "dev": "NODE_ENV=development hugo server --buildFuture",
-    "build": "rm -rf public && NODE_ENV=production hugo --gc --minify",
-    "build:preview": "NODE_ENV=production hugo --gc --minify --buildFuture"
-  },
   "author": "Algus Dark",
-  "license": "ISC",
+  "license": "MIT",
+  "scripts": {
+    "dev": "hugo server --buildFuture -v",
+    "build": "hugo --gc --minify",
+    "build:preview": "hugo --gc --minify --buildFuture"
+  },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.3.1",
     "autoprefixer": "^10.0.4",
-    "hugo-bin": "^0.67.0",
     "postcss": "^8.1.14",
-    "postcss-cli": "^8.2.0",
+    "postcss-cli": "^8.3.0",
     "postcss-import": "^13.0.0",
-    "postcss-nested": "^5.0.1",
-    "prettier": "^2.1.2",
+    "postcss-nested": "^5.0.2",
+    "prettier": "^2.2.1",
     "prettier-plugin-go-template": "^0.0.10",
-    "stylelint": "^13.7.2",
-    "stylelint-config-recommended": "^3.0.0",
     "tailwindcss": "^2.0.1"
   }
 }

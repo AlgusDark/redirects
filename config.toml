@@ -1,119 +1,31 @@
-DefaultContentLanguage = "en"
-baseURL = "https://algus.ninja"
-canonifyURLs = true
-enableRobotsTXT = true
-pygmentsUseClasses = true
+baseURL = "https://algus.ninja/"
+languageCode = "es-MX"
+title = "Algus' Blog"
 
-[params]
-[params.author]
-github = "algusdark"
-instagram = "algusdark"
-name = "Algus Dark"
-twitter = "algusdark"
-[params.time]
-RFC3339 = "2006-01-02T15:04:05Z07:00"
-default = "January 2, 2006"
-short = "Jan 02, 2006"
+disableKinds = ["taxonomy", "term"]
+staticDir = ["static", "content/notes/attachments"]
+enableGitInfo = false
+disableAliases = true
 
-[taxonomies]
-tag = "tags"
+# Ignore the attachments so we don't have double attachments
+ignoreFiles = ["content/notes/attachments", "obsidian.css", "obsidian-templates/.*"]
 
 [permalinks]
-posts = ":title"
+  notes = "/:filename"
 
-[markup]
-[markup.highlight]
-tabWidth = 2
+[params]
+  description = "Un lugar lleno de hipervínculos que podrían llevarte a lugares interesantes."
+  notesPath = "/notes"
+  [params.time]
+    RFC3339 = "2006-01-02T15:04:05Z07:00"
+    default = "January 2, 2006"
+    short = "02 Jan 2006"
 
-[languages]
-[languages.en]
-description = "The space for all my thoughts"
-languageCode = "en-us"
-languageName = "English"
-title = "Feline Cosmonaut"
-weight = 1
+[minify]
+  disableSVG = true
 
-[[languages.en.menu.main]]
-name = "About"
-url = "/about"
-weight = 1
-
-[[languages.en.menu.main]]
-name = "Uses"
-url = "/uses"
-weight = 2
-
-[[languages.en.menu.main]]
-name = "Posts"
-url = "/posts"
-weight = 3
-
-[[languages.es.menu.footer]]
-name = "Newsletter"
-url = "https://news.algus.ninja"
-weight = 1
-
-[[languages.en.menu.footer]]
-name = "RSS"
-url = "/posts/index.xml"
-weight = 2
-
-[[languages.en.menu.footer]]
-name = "GitHub"
-url = "https://github.com/algusdark"
-weight = 3
-
-[[languages.en.menu.footer]]
-name = "Twitter"
-url = "https://twitter.com/algusdark"
-weight = 4
-
-[[languages.en.menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 5
-
-[languages.es]
-description = "El espacio para todos mis pensamientos"
-languageCode = "es-mx"
-languageName = "Español"
-title = "Cosmonauta Felino"
-weight = 2
-
-[[languages.es.menu.main]]
-name = "About"
-url = "/es/about"
-weight = 1
-
-[[languages.es.menu.main]]
-name = "Uses"
-url = "/es/uses"
-weight = 2
-
-[[languages.es.menu.main]]
-name = "Posts"
-url = "/es/posts"
-weight = 3
-
-[[languages.es.menu.footer]]
-name = "RSS"
-url = "/es/posts/index.xml"
-weight = 1
-
-[[languages.es.menu.main]]
-name = "Tags"
-url = "/es/tags"
-weight = 4
-
-[[languages.es.menu.footer]]
-name = "GitHub"
-url = "https://github.com/algusdark"
-weight = 2
-
-[[languages.es.menu.footer]]
-name = "Twitter"
-url = "https://twitter.com/algusdark"
-weight = 3
+[build]
+  writeStats = true
 
 [markup.goldmark.renderer]
-unsafe = true
+  unsafe = true

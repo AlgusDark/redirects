@@ -1,17 +1,38 @@
-<header class="container mb-12 mt-4 mx-auto text-center">
-  <a href="/{{ cond (eq .Site.Language.Lang "en") "" .Site.Language.Lang }}">
-    <h1 class="tracking-tight uppercase leading-none mb-1 inline-block">
-      {{ .Site.Title }}
-    </h1>
-  </a>
-  <div class="flex flex-row items-center lg:w-9/12 w-11/12 mx-auto translation">
-    {{ if .IsTranslated }}
-      {{ range .Translations }}
-        <a href="{{ .Permalink }}" data-lang="{{ .Lang }}" title="{{ .Title }}"
-          >{{ i18n "read" . }}</a
-        >
-      {{ end }}
-    {{ end }}
-    <button class="mode-button p-3 md:p-2 opacity-75 hover:opacity-100 transition-opacity ease-in-out duration-150 ml-auto outline-none" aria-label="Activate light mode" title="Activate light mode"><div></div><div></div></button>
+<header class="py-4 md:py-12 mx-auto px-4">
+  <div class="flex items-center justify-between mx-auto xl:px-16 px-0">
+    <a class="flex items-center" href="/">
+      <picture>
+        <source type="image/webp" srcset="/images/avatar.webp" />
+        <source type="image/jpeg" srcset="/images/avatar.jpg" />
+        <img
+          class="shadow-2xl rounded-full mr-4"
+          src="/images/avatar.jpg"
+          width="48"
+          height="48"
+        />
+      </picture>
+      <h1 class="text-lg md:text-2xl font-mono font-bold">Algus</h1>
+    </a>
+    <nav>
+      <ul
+        class="md:flex md:flex-wrap md:space-x-12 md:space-y-0 space-y-4 text-right tracking-wide"
+      >
+        <li>
+          <a class="md:text-lg text-base font-mono font-bold" href="/notes"
+            >Notes</a
+          >
+        </li>
+        <li>
+          <a class="md:text-lg text-base font-mono font-bold" href="/about"
+            >About</a
+          >
+        </li>
+        <li>
+          <a class="md:text-lg text-base font-mono font-bold" href="/subscribe"
+            >Subscribe</a
+          >
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>

@@ -1,0 +1,24 @@
+{{- if or (strings.HasPrefix .Destination "http") (strings.HasPrefix .Destination "mailto") -}}
+  <a href="{{- .Destination | safeURL -}}" {{- with .Title -}} title="{{- . -}}" {{- end -}} class="external" target="_blank" rel="noopener">
+    {{- .Text | safeHTML -}}</a>
+{{- else -}}
+  {{- $text := .Text -}}
+  {{- $prettyText := split $text "#" -}}
+  {{- /* create anchor and filename */ -}}
+  {{- $anchor := "" -}}
+  {{- $destination := split .Destination "#" -}}
+  {{- $filename := (index $destination 0) -}}
+  {{- $anchor = urlize $filename -}}
+  {{- /* concatenate anchor if link has heading link */ -}}
+  {{- with (index $destination 1) -}}
+    {{- $anchor = . | anchorize | printf "%s#%s" $anchor -}}
+  {{- end -}}
+  {{- if fileExists ($filename | printf "%s/%s.md" .Page.Site.Params.notesPath) -}}
+    <a href="{{- $anchor | relURL -}}" {{- with .Title -}} title="{{- . -}}" {{- end -}}>
+      {{- $text | safeHTML -}}
+    </a>
+  {{- else -}}
+    <a href="javascript:void(0)" {{- with .Title -}} title="{{- . -}}" {{- end -}} class="dead-end">
+      {{- $text | safeHTML -}}</a>
+  {{- end -}}
+{{- end -}}

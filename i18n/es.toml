@@ -1,8 +1,0 @@
-[recent_posts]
-other = "Entradas Recientes"
-
-[read]
-other = "Read in {{.Language.LanguageName}}"
-
-[keep_reading]
-other = "Sigue leyendo"

@@ -1,16 +1,16 @@
-{{ $image := .Get "src"}}
-{{ $type_arr := split $image "." }}
-{{ $srcbase := index $type_arr 0 }}
+{{- $image := .Get "src"}}
+{{- $type_arr := split $image "." -}}
+{{- $srcbase := index $type_arr 0 -}}
 
 <figure style="{{with .Get "width"}}width: {{.}}px;{{end}}{{with .Get "height"}}height: {{.}}px;{{end}}" class="mx-auto {{.Get "figureclass"}}">
   <picture>
     <source type="image/webp" srcset="{{$srcbase}}.webp">
     <source type="image/jpeg" srcset="{{$srcbase}}.jpg">
     <img
-    src="{{ .Get "src" }}"
-    alt="{{ .Get "alt" }}"
+    src="{{- .Get "src" -}}"
+    alt="{{- .Get "alt" -}}"
     loading="lazy"
-    class="{{ .Get "class" }} h-full object-cover w-full"
+    class="{{- .Get "class" -}} h-full object-cover w-full"
     {{with .Get "width"}} width="{{.}}" {{end}}
     {{with .Get "height"}} height="{{.}}" {{end}}
   />

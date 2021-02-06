@@ -1,12 +1,20 @@
-{{ define "main" }}
-  <div class="px-4 lg:px-56 container mx-auto">
-    <section id="content" class="mb-20">
-      {{ .Content }}
-    </section>
-    <section>
-      <h2>{{ i18n "recent_posts" }}</h2>
-      {{ $posts := where .Site.RegularPages "Section" "posts" }}
-      {{ partial "recent-posts" $posts }}
-    </section>
-  </div>
-{{ end }}
+{{- define "main" -}}
+  <main class="max-w-full prose lg:prose-xl">
+    {{- with .Site.GetPage "/notes/_index.md" -}}
+      {{- partial "content" . -}}
+    {{- end -}}
+    <p>
+      {{- $scratch := newScratch -}}
+      {{- range .Site.RegularPages -}}
+        {{- $scratch.Add "files" 1 -}}
+        {{- $scratch.Add "words" .WordCount -}}
+      {{- end -}}
+      Éste sitio está compuesto por
+      <strong>{{ $scratch.Get "words" | lang.NumFmt 0 }} palabras</strong>
+      distribuidas entre
+      <a class="font-bold" href="/notes"
+        >{{ $scratch.Get "files" | lang.NumFmt 0 }} notas</a
+      >.
+    </p>
+  </main>
+{{- end -}}
