@@ -42,7 +42,7 @@
     <meta property="og:site_name" content="{{- .Site.Title -}}" />
     <meta
       property="og:image"
-      content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ "/images/avatar-md.jpg" | absURL }}{{ end }}"
+      content="{{ if .Params.image }}{{ .Params.image | absURL }}{{ else }}{{ "/images/avatar-md.jpg" | absURL }}{{ end }}"
     />
 
     {{- $options := dict "inlineImports" true -}}
