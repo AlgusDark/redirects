@@ -1,5 +1,5 @@
-{{- if or (strings.HasPrefix .Destination "http") (strings.HasPrefix .Destination "mailto") -}}
-  <a href="{{- .Destination | safeURL -}}" {{- with .Title -}} title="{{- . -}}" {{- end -}} class="external" target="_blank" rel="noopener">
+{{- if or (hasPrefix .Destination "http") (hasPrefix .Destination "mailto") -}}
+  <a href="{{- .Destination | safeURL -}}" {{- with .Title -}} title="{{- . -}}" {{- end -}} {{- if not (in .Destination "algus.ninja" ) -}} class="external" {{- end -}}>
     {{- .Text | safeHTML -}}</a>
 {{- else -}}
   {{- $text := .Text -}}

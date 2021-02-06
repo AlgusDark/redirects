@@ -1,7 +1,7 @@
 ## Correo Electrónico
 Cuento con un [Newsletter](https://news.algus.ninja) donde escribo sobre las cosas que descubro. Si eres alguien curioso, te aseguro que encontrarás algo de interés allí.
 
-Si tu correo es un caos, escribí sobre [cómo usar correctamente un correo electrónico](/17-años-después-aprendí-a-usar-el-correo-electrónico/). Ahora vivo en paz con mi información digital.
+Si tu correo es un caos, escribí sobre [cómo usar correctamente un correo electrónico](https://algus.ninja/17-años-despues-aprendi-a-usar-el-correo-electronico/). Ahora vivo en paz con mi información digital.
 
 ## RSS
 
