@@ -15,3 +15,4 @@ Si te gusta algo de lo que has leído aquí, no dudes en compartirlo. Me encanta
 - 🍐 [[como perdi 19 kilogramos en 21 semanas]]
 - 📫 [[17 años despues aprendi a usar el correo electronico]]
 - 😱 [[como lidiar con tanta informacion]]
+- 💻 [[cuando desperté la web todavía estaba allí]]
