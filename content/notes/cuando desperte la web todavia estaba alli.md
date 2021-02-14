@@ -1,6 +1,7 @@
 ---
 title: "Cuando desperté, la web todavía estaba allí"
 date: 2021-02-14
+image: old-pc.jpg
 ---
 
 ![[old-pc.jpg]]
