@@ -11,7 +11,7 @@ Prender aquella desconocida máquina conllevaba el conectar varios cables a la c
 
 Para nosotros era momento de jugar "[Space Cadet](https://en.wikipedia.org/wiki/Full_Tilt!_Pinball#3D_Pinball_for_Windows_%E2%80%93_Space_Cadet)" una y otra vez. Abrir Paint y dibujar cualquier cosa que nuestras mentes pudieran imaginar. Pero todo cambiaba cuando, gracias a unos cuantos clics en los lugares correctos, un sonido un tanto peculiar, nos saludaba. 
 
-[Pshhhkkkkkkrrrrkakingkakingkakingtshchchchchchchchcch\*ding\*ding\*ding\*](https://youtu.be/gsNaR6FRuO0?t=5)
+[Pshhhkkkkkkrrrrk akingkakingkaking tshchchchchchchchcch \*ding\*ding\*ding\*](https://youtu.be/gsNaR6FRuO0?t=5)
 
 Aquel saludo robótico, fuera de este mundo, nos abría las puertas a este extraño lugar que nadie sabía cómo funcionaba, que muchos curiosos llegaban por diferentes razones. Exploradores de lo desconocido, entusiastas por descubrir otros mundos. 
 
