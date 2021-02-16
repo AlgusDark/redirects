@@ -1,5 +1,5 @@
 ---
-title: Hola Mundo!
+title: ¡Hola Mundo!
 description: Declaro inaugurados los debrayes del Algus
 date: 2020-11-16
 lastMod: 2021-02-07

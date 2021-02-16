@@ -89,7 +89,11 @@
             {{- if eq .Page.File.ContentBaseName "_index" -}}
               {{- $backlink = "Inicio" -}}
               {{- else -}}
-              {{- $backlink = .Page.File.ContentBaseName -}}
+              {{- with (.Page.GetPage .Page.File.ContentBaseName).Title -}}
+                {{- $backlink = . -}}
+                {{- else -}}
+                {{- $backlink = .Page.File.ContentBaseName -}}
+              {{- end -}}
             {{- end -}}
             <li>
               <a
