@@ -29,3 +29,4 @@ ignoreFiles = ["content/notes/attachments", "obsidian.css", "obsidian-templates/
 
 [markup.goldmark.renderer]
   unsafe = true
+  
