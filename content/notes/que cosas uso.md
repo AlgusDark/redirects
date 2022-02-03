@@ -6,8 +6,7 @@ aliases: ["uses"]
 
 ## Hardware
 - [MacBook Pro (16-inch, 2019)](https://www.apple.com/mx/macbook-pro-16/)
-- [Magic Mouse 2](https://www.apple.com/mx/shop/product/MLA02LZ/A/magic-mouse-2-color-plata)
-- [Razer BlackWidow Tournament Edition Chroma V2](https://www.razer.com/gaming-keyboards/razer-blackwidow-tournament-edition-chroma-v2/RZ03-02190700-R3M1)
+- [Ergodox Ez](https://ergodox-ez.com/)
 - [Kobo Libra H2O](https://us.kobobooks.com/products/kobo-libra-h2o)
 - [Onyx Boox Note 3](https://www.boox.com/note3/)
 
@@ -28,6 +27,4 @@ aliases: ["uses"]
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 - [Obsidian](https://obsidian.md/)
 - [HyperDock](https://bahoom.com/hyperdock)
-- [Sip](https://sipapp.io/)
 - [Kap](https://getkap.co/)
-- [Zettlr](https://www.zettlr.com/)
