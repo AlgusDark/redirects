@@ -3,5 +3,17 @@
     "env": {
       "HUGO_VERSION": "0.92.1"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "git.algus.ninja"
+        }
+      ],
+      "destination": "https://github.com/AlgusDark"
+    }
+  ]
 }
