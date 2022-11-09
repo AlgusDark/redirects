@@ -14,6 +14,86 @@
         }
       ],
       "destination": "https://github.com/AlgusDark"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "fb.algus.ninja"
+        }
+      ],
+      "destination": "https://www.facebook.com/CodeandoPues"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "ig.algus.ninja"
+        }
+      ],
+      "destination": "https://www.instagram.com/algusdark/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "in.algus.ninja"
+        }
+      ],
+      "destination": "https://www.linkedin.com/in/algusdark"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "news.algus.ninja"
+        }
+      ],
+      "destination": "https://algus.substack.com/"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "pues.algus.ninja"
+        }
+      ],
+      "destination": "https://www.youtube.com/channel/UCaRp1KzFEEpBbBpr8mMm0jg"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "tweet.algus.ninja"
+        }
+      ],
+      "destination": "https://www.twitter.com/AlgusDark"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "tw.algus.ninja"
+        }
+      ],
+      "destination": "https://www.twitter.com/AlgusDark"
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "vg.algus.ninja"
+        }
+      ],
+      "destination": "https://www.youtube.com/channel/UC1Z1UO8j-22bJF5ELPkcBIw"
     }
   ]
 }
