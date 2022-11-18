@@ -1,7 +1,0 @@
-{
-  "css.validate": false,
-  "less.validate": false,
-  "scss.validate": false,
-  "stylelint.enable": true,
-  "cSpell.language": "en,es"
-}
